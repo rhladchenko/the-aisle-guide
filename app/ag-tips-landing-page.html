@@ -1,0 +1,1510 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TAG Tips Landing Page</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the ag-page-tips-landing-page-tmp component.
+*/-->
+<section class="component-ag-page-tips-landing-page-tmp">
+    <!-- banner -->
+
+    <!-- @@class-image-position => flex-lg-row = image left, flex-lg-row-reverse = image right -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mob-full-width">
+                <!--/*
+    Main HTML template for the ag-banner-fifty component.
+*/-->
+<section class="component-ag-banner-fifty">
+
+    <!-- Variables:
+
+    "classImagePosition": "",           ---- "flex-md-row-reverse" - position img on the banner (left/right)
+    "image": "",                        ---- src image
+    "classImageTitleHideShow": "",      ---- d-md-none
+    "PhotographerName": "",             ---- signature on the banner below
+    "tag": "",                          ---- toppic text
+    "title": "",                        
+    "body": ""                          
+-->
+
+    <!-- @@class-image-position => flex-lg-row = image left, flex-lg-row-reverse = image right -->
+
+    <section class="ag-banner-50x50">
+        <div class="container px-0 d-flex flex-column flex-md-row-reverse">
+            <div class="col-image">
+                <div class="component-image">
+                    <img class="img-responsive" src="../images/tips_lp/tips_lp_banner_top.png">
+                    <h5 class="title d-md-none">Photo by: Photographer Name</h5>
+                </div>
+            </div>
+            <div class="col-text text-center bg-gray add-flag p-5">
+                <h5 class="topic margin-top-md"><a href='#'>PLANNING</a></h5>
+                <div class="center-y">
+                    <h2 class="mb-4 px-lg-5">5 Suit Mistakes We See <br> Grooms Make</h2>
+                    <p class="mb-4">With Generation Tux</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer_100_60_75 d-none d-lg-block"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-column flex-lg-column-reverse">
+                    <div class="content-block-a">
+                        <div class="spacer_100_60_75"></div>
+                        <!-- leaderboard-ad -->
+                        <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad margin-bot-lg">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard d-md-flex">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half ">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium d-flex d-md-none">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+                        <div class="spacer_100_60_75 d-lg-none"></div>
+                    </div>
+                    
+                    <!-- Browse by Topic -->
+                    <div>
+                        <section class="content pb-3 mb-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="text-center mb-0">Browse by Topic</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="content browse-by-topic">
+                            <div class="container px-md-0">
+                                <div class="row">
+                                    
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-01">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_01.png" alt="" /></div>
+    <h5><a href="#">PLANNING</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-02">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_02.png" alt="" /></div>
+    <h5><a href="#">VENUE</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-03">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_03.png" alt="" /></div>
+    <h5><a href="#">FASHION & BEAUTY</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-04">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_04.png" alt="" /></div>
+    <h5><a href="#">FLORAL</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-05">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_05.png" alt="" /></div>
+    <h5><a href="#">DECOR</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-06">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_06.png" alt="" /></div>
+    <h5><a href="#">CEREMONY</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-07">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_07.png" alt="" /></div>
+    <h5><a href="#">Stationery</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-08">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_08.png" alt="" /></div>
+    <h5><a href="#">MENU</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-09">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_09.png" alt="" /></div>
+    <h5><a href="#">ENTERTAINMENT</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-10">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_10.png" alt="" /></div>
+    <h5><a href="#">Photo & Video</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-11">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_11.png" alt="" /></div>
+    <h5><a href="#">Travel</a></h5>
+</div>
+
+                                    </div>
+
+                                    <div class="col-6 col-md-3 col-lg-2">
+                                        <!--/*
+    Main HTML template for the ag-card-browse-topic component.
+*/-->
+<div class="component-ag-card-browse-topic"></div>
+<div class="card-browse-topic item item-12">
+    <div class="img-box image"><img class="img-responsive img-fullwidth" src="../images/tips_lp/browse_by_topic_12.png" alt="" /></div>
+    <h5><a href="#">Registry</a></h5>
+</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Essentials -->
+    <section class="content margin-top-lg margin-bot-lg mt-lg-0 mb-md-0 pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--/*
+    Main HTML template for the card-navigation component.
+*/-->
+
+<section class="component-card-navigation mb-4 @@class">
+    <nav class="navbar px-0">
+       <h2 class="text-center text-md-left mx-auto mx-md-0">The Essentials</h2>
+        <a class="link-all d-none d-md-block hover-decoration-none hover-gold" href="VIEW ALL-url">VIEW ALL <i class="fas fa-arrow-right"></i></a>
+    </nav>
+</section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content the-essentials-box body-cards">
+        <div class="component-body sync-boxes">
+            <div class="container">
+                <div class="row num-show-card container-dynamic-position" data-num-sm="5" data-num-md="4" data-num-lg="6" data-num="6">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_01.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Registry</a></h4>
+			<h2 class="title">
+				<a href="@@url">Wedding Gifts for the <br> Modern Couple</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Breaking Away From Traditional Gifting Rituals</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_02.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">PLANNING</a></h4>
+			<h2 class="title">
+				<a href="@@url">That's a Wrap: 6 Follow-Ups to the Big Day</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Not everything can wait until after the honeymoon!</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_03.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">PLANNING</a></h4>
+			<h2 class="title">
+				<a href="@@url">How To Beat the Heat at an Outdoor Summer Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Don't worry, we've got you covered (Literally!)</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_04.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">MENU</a></h4>
+			<h2 class="title">
+				<a href="@@url">Have Your Cake and Eat it too</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Minimalist Details with a Grand Setting</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_05.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Styled Shoot</a></h4>
+			<h2 class="title">
+				<a href="@@url">Getting The Biggest Bang for Your Buck: Floral Edition</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_01.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Real Wedding</a></h4>
+			<h2 class="title">
+				<a href="@@url">An Elegant Floral <br>La Jolla Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body"></div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-block d-md-none text-center margin-top-lg" data-pos-md="4" data-pos-sm="4">
+                        <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="#" class="component-cta primary w-75"><!--<i class="fab fa-facebook-f"></i>--> <span>view all</span></a>
+
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-lg margin-bot-lg my-md-0" data-pos="0" data-pos-lg="4" data-pos-md="5" data-pos-sm="5">
+                        <article class="component-card box bg-white content-block-a-04">
+                            <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad h-100">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard d-none">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half d-flex">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium d-none">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer_100_60_75-30 d-none d-md-block"></div>
+    <!-- Video -->
+    <section class="content">
+        <div class="container mob-full-width">
+            <!-- Watch now_Section -->
+            <section class="video-container bg-gray position-relative">
+                <div class="container px-0">
+                    <div class="pad-top-lg pad-md">
+                        <h3 class="border-bottom border-dark w-100 position-relative">
+                            <span class="position-absolute d-inline-block pr-3 bg-gray">Watch now</span>
+                        </h3>
+                        <!--/*
+    Main HTML template for the video-box component.
+*/-->
+<section class="component-video-box pt-4">
+    <div class="container">
+        <div class="row justify-content-lg-between">
+            <div class="col-12 col-xl-7 p-0">
+                <div class="video-featured mb-5 mb-md-3">
+                    <!--/*
+    Main HTML template for the "featured" verion of the card-video component.
+*/-->
+
+<div class="component-card-video featured-video">
+	<a class="video-modal-trigger" href="https://www.youtube.com/watch?v=HN-oHkBKDEU" data-video-id="HN-oHkBKDEU">
+		<div class="video">
+			<div class="image">
+				<img class="img-responsive img-fullwidth" src="../images/home/home_watch_now_01.png">
+			</div>
+			<span class="mask"><span class="play-button"><i class="fas fa-play"></i></span></span>
+		</div>
+		<div class="content">
+			<h4></h4>
+			<div class="body">
+				
+			</div>
+		</div>
+	</a>
+</div>
+
+                </div>
+            </div>
+            <div class="col-12 col-xl-5 pt-4 pl-0 pl-xl-5 pt-xl-0 pr-0 d-flex">
+                <div class="video-sidebar d-flex flex-column justify-content-between w-100">
+                    <!--/*
+    Main HTML template for the ag-card-video component.
+*/-->
+<div class="component-ag-card-video">
+	<div class="video-modal-trigger">
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="video">
+				<div class="image">
+					<img class="img-responsive img-fullwidth" src="../images/home/home_watch_now_02.png">
+				</div>
+			</div>
+		</a>
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="content d-flex align-items-center pl-4">
+				<div class="text">
+					<h5 class="topic now-playing text-gold font-weight-normal mb-2 active"><img class="mr-3"
+							src="../images/home/home_arrow_circle.png" alt="">NOW PLAYING</h5>
+					<h3 class="title mb-0">Lorem ipsum dolor amit sit dolor amet</h3>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+                    <!--/*
+    Main HTML template for the ag-card-video component.
+*/-->
+<div class="component-ag-card-video">
+	<div class="video-modal-trigger">
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="video">
+				<div class="image">
+					<img class="img-responsive img-fullwidth" src="../images/home/home_watch_now_03.png">
+				</div>
+			</div>
+		</a>
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="content d-flex align-items-center pl-4">
+				<div class="text">
+					<h5 class="topic now-playing text-gold font-weight-normal mb-2 @@class"><img class="mr-3"
+							src="../images/home/home_arrow_circle.png" alt="">NOW PLAYING</h5>
+					<h3 class="title mb-0">Lorem ipsum dolor sit amet</h3>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+                    <!--/*
+    Main HTML template for the ag-card-video component.
+*/-->
+<div class="component-ag-card-video">
+	<div class="video-modal-trigger">
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="video">
+				<div class="image">
+					<img class="img-responsive img-fullwidth" src="../images/home/home_watch_now_04.png">
+				</div>
+			</div>
+		</a>
+		<a href="https://www.youtube.com/watch?v=xbhCPt6PZIU" data-video-id="xbhCPt6PZIU">
+			<div class="content d-flex align-items-center pl-4">
+				<div class="text">
+					<h5 class="topic now-playing text-gold font-weight-normal mb-2 @@class"><img class="mr-3"
+							src="../images/home/home_arrow_circle.png" alt="">NOW PLAYING</h5>
+					<h3 class="title mb-0">Lorem ipsum dolor sit amet</h3>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+                    <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="#" class="component-cta primary mob-btn mt-3 d-none d-sm-block"><!--<i class="fab fa-facebook-f"></i>--> <span>view all videos</span></a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                    </div>
+                </div>
+            </section>
+            <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="#" class="component-cta primary mob-btn d-block d-sm-none py-5 py-sm-0 transform-none"><!--<i class="fab fa-facebook-f"></i>--> <span>view all videos</span></a>
+
+
+        </div>
+    </section>
+
+    <!-- leaderboard ad -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad margin-top-lg">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard d-md-flex">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half ">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium d-flex d-md-none">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured_Section -->
+    <div class="d-none d-lg-block">
+        <section class="content margin-top-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!--/*
+    Main HTML template for the card-navigation component.
+*/-->
+
+<section class="component-card-navigation mb-4 @@class">
+    <nav class="navbar px-0">
+       <h2 class="text-center text-md-left mx-auto mx-md-0">Featured</h2>
+        <a class="link-all d-none d-md-block hover-decoration-none hover-gold" href="#">VIEW ALL <i class="fas fa-arrow-right"></i></a>
+    </nav>
+</section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tips pb-lg-5">
+            <div class="container mob-full-width">
+                <div class="row mob-full-width mob-hide-card">
+                    <div class="col-12 col-md-6 mob-full-width mb-md-5 d-flex">
+                        <!--/*
+    Main HTML template for the card-two-horizontally component.
+*/-->
+
+<article class="component-card-two-horizontally text-center bg-lt-gray w-100">
+    <div class="container px-0">
+        <div class="row mob-full-width">
+            <div class="col-12 col-xl-6 pr-xl-0 mob-full-width">
+                <div class="image">
+                    <a href="#" class="background-image" style="background-image: url(../images/home/home_tips_01.png);">
+                        <img class="img-responsive img-fullwidth" src="../images/home/home_tips_01.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 pl-xl-0 py-5 mob-full-width">
+                <div class="px-3">
+                    <h5 class="topic font-weight-normal text-gold py-xl-5">
+                        <a href="#">FOOD & DRINK</a>
+                    </h5>
+                    <h3 class="title"><a href="#">Choosing a Signature Cocktail for Your Summer Wedding</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 mob-full-width mb-md-5 d-flex">
+                        <!--/*
+    Main HTML template for the card-two-horizontally component.
+*/-->
+
+<article class="component-card-two-horizontally text-center bg-lt-gray w-100">
+    <div class="container px-0">
+        <div class="row mob-full-width">
+            <div class="col-12 col-xl-6 pr-xl-0 mob-full-width">
+                <div class="image">
+                    <a href="#" class="background-image" style="background-image: url(../images/home/home_tips_02.png);">
+                        <img class="img-responsive img-fullwidth" src="../images/home/home_tips_02.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 pl-xl-0 py-5 mob-full-width">
+                <div class="px-3">
+                    <h5 class="topic font-weight-normal text-gold py-xl-5">
+                        <a href="#">DESIGN</a>
+                    </h5>
+                    <h3 class="title"><a href="#">Stunning Tablescapes for Every Season</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 mob-full-width mb-md-5 d-flex">
+                        <!--/*
+    Main HTML template for the card-two-horizontally component.
+*/-->
+
+<article class="component-card-two-horizontally text-center bg-lt-gray w-100">
+    <div class="container px-0">
+        <div class="row mob-full-width">
+            <div class="col-12 col-xl-6 pr-xl-0 mob-full-width">
+                <div class="image">
+                    <a href="#" class="background-image" style="background-image: url(../images/home/home_tips_03.png);">
+                        <img class="img-responsive img-fullwidth" src="../images/home/home_tips_03.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 pl-xl-0 py-5 mob-full-width">
+                <div class="px-3">
+                    <h5 class="topic font-weight-normal text-gold py-xl-5">
+                        <a href="#">Planning</a>
+                    </h5>
+                    <h3 class="title"><a href="#">You Said "YES"</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 mob-full-width mb-md-5 d-md-flex">
+                        <!--/*
+    Main HTML template for the card-two-horizontally component.
+*/-->
+
+<article class="component-card-two-horizontally text-center bg-lt-gray w-100">
+    <div class="container px-0">
+        <div class="row mob-full-width">
+            <div class="col-12 col-xl-6 pr-xl-0 mob-full-width">
+                <div class="image">
+                    <a href="#" class="background-image" style="background-image: url(../images/home/home_tips_04.png);">
+                        <img class="img-responsive img-fullwidth" src="../images/home/home_tips_04.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 pl-xl-0 py-5 mob-full-width">
+                <div class="px-3">
+                    <h5 class="topic font-weight-normal text-gold py-xl-5">
+                        <a href="#">DESTINATION WEDDINGS</a>
+                    </h5>
+                    <h3 class="title"><a href="#">How Long Does it Take to Plan a Destination Wedding?</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA for tablet and mobile -->
+        <div class="container d-md-none">
+            <div class="row">
+                <div class="col-11 mx-auto">
+                    <div class="spacer-y-70"></div>
+                    <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary w-100"><!--<i class="fab fa-facebook-f"></i>--> <span>VIEW ALL</span></a>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- leaderboard ad -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad margin-top-lg">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard d-md-flex">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half ">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium d-flex d-md-none">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The Latest_Section -->
+    <section class="content margin-top-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--/*
+    Main HTML template for the card-navigation component.
+*/-->
+
+<section class="component-card-navigation mb-4 @@class">
+    <nav class="navbar px-0">
+       <h2 class="text-center text-md-left mx-auto mx-md-0">The Latest</h2>
+        <a class="link-all d-none d-md-block hover-decoration-none hover-gold" href="#">VIEW ALL <i class="fas fa-arrow-right"></i></a>
+    </nav>
+</section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content the-essentials-box body-cards">
+        <div class="component-body sync-boxes">
+            <div class="container">
+                <div class="row num-show-card" data-num-sm="3" data-num-lg="4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_01.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Registry</a></h4>
+			<h2 class="title">
+				<a href="@@url">Wedding Gifts for the <br> Modern Couple</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Breaking Away From Traditional Gifting Rituals</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_02.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">PLANNING</a></h4>
+			<h2 class="title">
+				<a href="@@url">That's a Wrap: 6 Follow-Ups to the Big Day</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Not everything can wait until after the honeymoon!</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_03.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">PLANNING</a></h4>
+			<h2 class="title">
+				<a href="@@url">How To Beat the Heat at an Outdoor Summer Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Don't worry, we've got you covered (Literally!)</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_04.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">MENU</a></h4>
+			<h2 class="title">
+				<a href="@@url">Have Your Cake and Eat it too</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Minimalist Details with a Grand Setting</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_05.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Styled Shoot</a></h4>
+			<h2 class="title">
+				<a href="@@url">Getting The Biggest Bang for Your Buck: Floral Edition</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/tips_lp/the_essentials_05.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">Styled Shoot</a></h4>
+			<h2 class="title">
+				<a href="@@url">Getting The Biggest Bang for Your Buck: Floral Edition</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container d-lg-none mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="#" class="component-cta primary "><!--<i class="fab fa-facebook-f"></i>--> <span>load more</span></a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom gray_Section -->
+    <section class="bg-lt-gray margin-top-lg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <!-- classTitle "gold-underline"  - adds gold underline to title (h2)-->
+                    <!--/*
+    Main HTML template for the card-contact component.
+*/-->
+
+<!-- 
+variables:
+"classTitle": "",	---- if added class "gold-underline - show horizontal gold line"
+"title": "",			
+"body": "",			
+"ctaLabel": "" 
+-->
+<article class="component-card-contact box">
+	<div class="content">
+		<header>
+			<h2 class="title gold-underline">Lorem ipsum dolor sit amet.</h2>
+		</header>
+		<section>
+			<div class="body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quo et cupiditate voluptas ratione minus cumque minima quae dignissimos natus.</div>
+			<!-- If CTA -->
+			<div class="cta">
+				<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>sing up</span></a>
+
+
+			</div>
+			<!-- end if -->
+		</section>
+	</div>
+</article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+</section>
+
+
+</div><!-- /#main -->
+
+<!--/*
+    Main HTML template for the ag-global-footer-tmp component.
+*/-->
+<footer class="component-global-footer component-ag-global-footer-tmp">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="ag-about_new.html">About</a></li>
+						<li><a href="http://localhost:3000/ag-press.html">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="http://localhost:3000/ag-contact-us_new.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">For Pros</h4>
+					<ul>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Advertise with Us</a></li>
+						<li><a href="#">Join Our Pro Community</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-12 col-xl-5 offset-sm-4 offset-xl-3">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Email Address" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2020 The Aisle Guide &nbsp;&nbsp; | &nbsp;&nbsp; Powered by <a class="logo-bottom" href="/">
+					<img class="img-responsive img-standard" src="./../images/logo-white-color.png">
+				</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- datepicker for forms -->
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<!-- END datepicker for forms -->
+
+<!-- build:js scripts/main.js -->
+<script src="../js/pagelibs.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

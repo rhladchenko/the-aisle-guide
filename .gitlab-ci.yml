@@ -1,0 +1,23 @@
+stages:
+  - deploy
+
+deploy_dev:
+  image: alpine:latest
+  stage: deploy
+  variables:
+    BRANCH: "master"
+    PROJECT_PATH: "/srv/docker/aisle-guide/"
+  before_script:
+    - echo 'http://dl-cdn.alpinelinux.org/alpine/v3.5/main' > /etc/apk/repositories
+    - apk update
+    - apk add openssh bash
+    - eval $(ssh-agent -s)
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - bash -c "ssh-add <(echo '$SSH_PRIVATE_KEY_gitlab_at_docker01_cpcs_ws')"
+    - export COMMAND1="cd ${PROJECT_PATH} && git fetch && git checkout $BRANCH && git pull"
+    - ssh gitlab@docker01.cpcs.ws "$COMMAND1"
+  environment:
+    name: dev
+    url: http://aisleguide.dev01.cpcs.ws/

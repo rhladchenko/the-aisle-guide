@@ -1,0 +1,723 @@
+<!--/*
+    Main HTML template for the promo component.
+    
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+    
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+<!--/*
+    Main HTML template for the modal component.
+*/-->
+<section class="component-modal">
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							<p>Subhead lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						
+						<div class="row modal-modified">
+							<div class="col-12 col-md-6 offset-md-3 modal-modified">
+								<div class="ctas">
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta facebook"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Facebook</span></a>
+
+
+									</div>
+									
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Email</span></a>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="createAccountModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>It looks like an account already exists for this email.</li>
+									<li>Go ahead and <a href="#">sign in</a> to your account or <a href="#">reset your password</a> if you've forgotten it.</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Email Address" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="company" class="form-input form-text" placeholder="Company Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="password" class="form-input form-text error-field" placeholder="Choose a Password" />
+									</div>
+									<div class="col-12 modal-modified">
+										<div class="custom-select ">
+											<select name="interest">
+												<option value="0">What are you most interested in?</option>
+												<option value="1">Audi</option>
+												<option value="2">BMW</option>
+												<option value="3">Citroen</option>
+												<option value="4">Ford</option>
+												<option value="5">Honda</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 modal-modified">
+										<p class="terms"><input type="checkbox" name="terms"> I have read and agree to the Terms of Service and Privacy Policy. I understand that as part of my service I will receive email communications regarding my account from Aisle Planner which I can unsubscribe from at any time.</u></p>
+									</div>
+									<div class="col-12 modal-modified">
+										<div id="promo-code-dialog" class="h5">Promo or Referral Code?</div>
+									</div>
+									<div id="promo-code" style="display:none;">
+										<div class="col-12 modal-modified">
+											<input type="text" name="promo" class="form-input form-text" placeholder="Promo/Referral Code" />
+										</div>
+									</div>
+								</div>
+							</form>
+							
+						</div>
+						
+						<div class="ctas">
+							<div class="cta">
+								<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Start My Trial</span></a>
+
+
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Sign In</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>Looks like you misspelled "Toodles".</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Username" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Password" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn" value="Sign In" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p style="margin-top: 2rem;" class="text-left"><a href="#"><strong>Forget your password?</strong></a></p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p class="h5 or dash-text-left dash-text-right">Or</p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn bg-facebook" value="Sign In With Facebook" />
+									</div>
+						
+								</div>
+							</form>
+							
+							<div class="row modal-modified">
+								<div class="col-12 col-md-6 offset-md-3 modal-modified">
+									<div id="no-account" class="text-left">
+										<p>Don't have an account? <a href="#">Sign Up</a>.</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Playfair+Display&display=swap" rel="stylesheet"> 
+    
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons' async='async'></script>
+    
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/logo-color.png">
+					<img class="img-responsive img-transparent" src="../images/logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<li class="nav-item dropdown">
+								<a href="article.html" class="dropdown-toggle" class="font-stretch">Solutions</a>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="dropdown-toggle" class="font-stretch">Business Types</a>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="font-stretch">Pricing</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" class="dropdown-toggle" class="font-stretch">Community</a>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mobile-menu">
+		
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<label><a href="solutions.html" class="font-stretch">Solutions</a> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><a href="solutions.html" class="font-stretch">Business Types</a> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="font-stretch">Pricing</a>
+						</li>
+						<li class="dropdown">
+							<label><a href="solutions.html" class="font-stretch">Community</a> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="push"></div>
+		</div>
+		
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the columns component.
+
+    CMS Options:
+
+    Text Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+
+*/-->
+
+
+<!-- Variation: Connector images, black text -->
+<section class="component-columns  text-black">
+	<div class="container">
+		<div class="component-header text-centered">
+			<div class="row">
+				<div class="col-12">
+					<header>
+						<h2>Contact Us</h2>
+					</header>
+				</div>
+			</div>
+		</div>
+		<div class="component-body sync-boxes">
+			<div class="row">
+				<div class="col-12">
+					<div class="columns row">
+						<div class="col-12 col-lg-6">
+							<!--/*
+    Main HTML template for the card-contact component.
+*/-->
+<article class="component-card-contact">
+
+	<div class="content">
+		<header>
+			<h2 class="title">Submissions</h2>
+		</header>
+		<section>
+			<div class="component-content text-centered">
+				<div class="body">
+					<p>We support our community of wedding pros with many opportunities to gain press coverage. We support our community of wedding pros with many opportunities to gain press coverage. We support our community of wedding pros with many opportunities to gain press coverage.</p>
+				</div>
+				<div class="cta">
+					<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Drink More Ovaltene!</span></a>
+
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+</article>
+
+
+						</div>
+						
+						<div class="col-12 col-lg-6">
+							<!--/*
+    Main HTML template for the card-contact component.
+*/-->
+<article class="component-card-contact">
+
+	<div class="content">
+		<header>
+			<h2 class="title">Featured on Aisle Planner</h2>
+		</header>
+		<section>
+			<div class="component-content text-centered">
+				<div class="body">
+					<p>Have you been featured on Aisle Planner? Download a badge for your website, social media, and email signature and spread the word!</p>
+				</div>
+				<div class="cta">
+					<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Drink More Ovaltene!</span></a>
+
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+</article>
+
+
+						</div>
+						
+						<div class="col-12 col-lg-6">
+							<!--/*
+    Main HTML template for the card-contact component.
+*/-->
+<article class="component-card-contact">
+
+	<div class="content">
+		<header>
+			<h2 class="title">Inspiration Newsletter</h2>
+		</header>
+		<section>
+			<div class="component-content text-centered">
+				<div class="body">
+					<p>Wedding and event industry insights along with the latest news and updates—all wrapped up in one beautiful newsletter from Aisle Planner.</p>
+				</div>
+				<div class="cta">
+					<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Drink More Ovaltene!</span></a>
+
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+</article>
+
+
+						</div>
+						
+						<div class="col-12 col-lg-6">
+							<!--/*
+    Main HTML template for the card-contact component.
+*/-->
+<article class="component-card-contact">
+
+	<div class="content">
+		<header>
+			<h2 class="title">Submissions</h2>
+		</header>
+		<section>
+			<div class="component-content text-centered">
+				<div class="body">
+					<p>Wedding style, inspiration and the latest trends — straight to your inbox.</p>
+				</div>
+				<div class="cta">
+					<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, secondary, secondary-white
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Drink More Ovaltene!</span></a>
+
+
+				</div>
+			</div>
+		</section>
+	</div>
+
+</article>
+
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+
+
+
+
+    </div><!-- /#main -->
+
+    <!--/*
+	Main HTML template for the global-footer component.
+*/-->
+<footer class="component-global-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Legal</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Community</h4>
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Industry Events</a></li>
+						<li><a href="#">Pro Partners</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Customer Care</h4>
+					<ul>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-xl-5 offset-xl-1">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Enter Email" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<input class="btn btn-border-white font-stretch form-submit" type="submit" id="edit-submit" name="op" value="Sign Up" />
+						</div>
+					</form>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="../js/pagelibs.js"></script>
+    <!-- endbuild -->
+
+    </body>
+
+</html>

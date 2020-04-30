@@ -1,0 +1,725 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog Detail</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the fifty-fifty component.
+
+    CMS Options:
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Variation:
+      - Image on Left:     image-left
+      - Image on Right:    image-right
+
+*/-->
+
+
+<!-- Variation: Background Image Left -->
+<section class="component-fifty-fifty  image-left show-bg-image vertical-line">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6 offset-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Left</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!--/*
+    Main HTML template for the blog-detail component.
+*/-->
+<section class="component-blog-detail">
+
+    <div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8">
+				<article class="blog-detail">
+					<header>
+						<div class="date h4">September 20, 2019</div>
+						<h1>My Life With the Thrill Kill Cult</h1>
+					</header>
+					<section>
+						<p>From the beginning, our mission at Aisle Planner has remained the same: to build a beautiful online workspace that fosters creativity, encourages collaboration and boosts productivity to help wedding pros create and run better businesses. It’s the inspiration behind everything we do.</p>
+						<p>We launched our business tools with that in mind and, at the same time, launched our consumer planning tools. Our intention was to use our platform to educate couples about the importance of hiring a pro. A few years later – and, in full transparency, a few years wiser – we realized there was a better way to serve our pro community. It was time to make some bold changes.
+		Therefore, in our commitment to stand with and for our pro community, we have discontinued the availability of both the “free” and “paid” planning tools for couples. These features will be re-imagined to better support our original intentions. We want to fuel consumer connection and engagement with our pro community. We strive to encourage the increasingly important collaborative planning process between pros and their clients.</p>
+						<p>Our belief that Aisle Planner can make a difference is unwavering. We’re empowered and motivated by the features we design and the platform we build them on. Most of all, however, by you. You fueled this decision with your support and encouragement. We’re thrilled to lay one more stone on the path to a better Aisle Planner experience. One that backs our pros, 100%.</p>
+						<p>We’re more focused than ever on our mission to support you on your journey to build a strong business. We’re excited for everything in the works behind the scenes here including the launch of our first ever event series, AP|EX Vegas, ahead of this year’s Wedding MBA. We’ll be introducing our first mobile app to help you stay productive on the go and at events. And, we’ll be releasing new features and improvements that will deliver against our objective to give you the ‘Power of One’: one login, one solution, one experience.</p>
+						<p>With gratitude,</p>
+						<div class="author h5">Liza Minnelli</div>
+						<div class="title h4">Liza with a Z</div>
+
+						<div class="author-card">
+							<!--/*
+    Main HTML template for the share component.
+*/-->
+<section class="component-share">
+	
+	<div class="content align-items-center">
+		<h5>Share</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button"><i class="fab fa-twitter"></i></div>
+			<div data-network="facebook" class="st-custom-button"><i class="fab fa-facebook-f"></i></div>
+			<div data-network="pinterest" class="st-custom-button"><i class="fab fa-pinterest"></i></div>
+			<div data-network="email" class="st-custom-button"><i class="far fa-envelope"></i></div>
+		</div>
+	</div>
+
+</section>
+
+
+						</div>
+
+						<div class="author-card">
+							<!--/*
+    Main HTML template for the card-author component.
+*/-->
+<section class="component-card-author">
+	
+	<header>
+		<h4 class="h5">About the Author</h4>
+	</header>
+	
+	<section>
+		<div class="row">
+			<div class="col-12 col-md-3">
+				<div class="background-image" style="background-image: url(../images/christina.png);">
+					<img class="image img-responsive img-fullwidth" src="../images/christina.png">
+				</div>
+			</div>
+			<div class="col-12 col-md-9">
+				<div class="content">
+					<header>
+						<div class="author h5">Liza Minnelli</div>
+						<div class="title h4">Liza with a Z</div>
+					</header>
+					<section>
+						<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</section>
+
+
+						</div>
+					</section>
+				</article>
+
+				<section class="related-posts">
+					<h2 class="h5">Related Posts</h2>
+					<div class="sync-boxes">
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Peaches</a></h4>
+			<h2 class="title">
+				<a href="@@url">Feugiat quis consequat eget tincidunt congue augue</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+							</div>
+							<div class="col-12 col-md-6">
+                                <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pasta</a></h4>
+			<h2 class="title">
+				<a href="@@url">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+							</div>
+					</div>
+				</section>
+
+			</div>
+			<div class="col-12 col-lg-4 col-special-padding">
+				<!--/*
+    Main HTML template for the instagram component.
+*/-->
+
+<section class="component-instagram">
+	
+	<div class="container">
+		
+		<div class="component-header">
+		    <div class="row m-0">
+		        <div class="col-12 p-0">
+		        	<h5>Latest from @aisleplanner</h5>
+		        </div>
+		    </div>
+		</div>
+	    
+	    <div class="component-body">
+		    <div class="row">
+				<div class="col-12">      
+				    <div class="flex-grid">
+						<div class="col-flex-image">
+				
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B45yXacD1dP/"><img class="img-responsive" alt="This styled shoot was designed specifically to inspire the Western bride. With the color combination of warm oranges, gold, and copper, @epochcoevents created multiple outdoor vignettes for the perfect fall wedding. 🍂 More inspo through the link in our bio! ⁠⠀
+							⁠⠀
+							Photography @samanthakaye.photo ⁠⠀
+							Design @epochcoevents⁠⠀
+							Florals @urbanrubbishweddings⁠⠀
+							Cake @sinfullysweettx⁠⠀
+							Stationery @davisartco⁠⠀
+							Beauty @westernvelourbeautyco ⁠⠀
+							Jewelry @turquoisenteepees ⁠⠀
+							Dress @brickhousebridal ⁠⠀
+							Rentals @partytimerentalscollegestation &amp; @vestigeeventrentals⁠⠀
+							⁠⠀
+							#wedding #rusticwedding #bride #uniquewedding #outdoorwedding #weddinginvitations #gettingmarried #theaisleguide #bohobride #weddinginspiration #weddinginspo" src="https://scontent.cdninstagram.com/vp/308d2ef208d8a30fbbab00e5414f18b0/5E57650D/t51.2885-15/e35/c0.180.1440.1440a/s150x150/72184068_144275233572630_6417095159516919309_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							
+						</div>
+				    
+						<div class="col-flex-image">
+				
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B43VDayDDWB/"><img class="img-responsive" alt="From scrolling through Pinterest to trying on dresses, wedding planning can feel like all fun and games…until it’s time to talk numbers, that is. Rest assured, we’ve taken out all the legwork with 6 steps to create a completely realistic budget that keeps your priorities in check every step of the way! Link in bio.⁠⠀
+							⁠⠀
+							📸 @photobyjulieta⁠⠀
+							⁠⠀
+							#weddingbudget  #weddingplanning #wedding #bridetobe #weddinginspiration #engaged #brideonabudget #theaisleguide" src="https://scontent.cdninstagram.com/vp/1a4365de067daa8bf11b19f4e617bb7a/5E6E1C4A/t51.2885-15/e35/c206.0.1028.1028a/s150x150/74627677_147915813191551_6441639770416636647_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							
+						</div>
+				    	<div class="col-flex-image">
+				
+							
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B427tfij9wq/"><img class="img-responsive" alt="Looking over this amazing display of deliciousness, you can't help but think of falling leaves, hot cocoa, and cozy blankets by the fire. Full of inspiration for your fall wedding or event, @signaturesweetsbyamanda shares with us the ingredients behind these masterpieces and we can't help but drool a little!🤤⁠⠀
+							⁠⠀
+							📸 @forestheartphoto⁠⠀
+							⁠⠀
+							#weddingcake #wedding #cake #weddinginspiration #weddingday #weddingideas #weddings #weddinginspo #dessert  #instafood #delicious" src="https://scontent.cdninstagram.com/vp/5e2aafabe60183bec0e616038f8fa666/5E4FBE67/t51.2885-15/e35/c240.0.960.960a/s150x150/72694721_183931592655163_1618146198236551177_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+				
+						</div>
+				                     
+						<div class="col-flex-image">
+				
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B40UFLaDmLE/"><img class="img-responsive" alt="Wendy and Kasey’s intimate ceremony was held by the stunning Lake McDonald in Glacier National Park, surrounded by 15 of their closest family and friends. 🌲 Link in bio for more bold red details and rustic mountainous views!⁠⠀
+							⁠⠀
+							Photography @taylerashleyphotography⁠⠀
+							Venue @glaciernps &amp; @theizaakwaltoninn⁠⠀
+							Makeup @etherealhairmakeup⁠⠀
+							Florals @rosemountain_floral⁠⠀
+							Cake @fleurbakeshop⁠⠀
+							⁠⠀
+							#glaciernationalpark #destinationwedding #weddingdesign #weddingdecor #weddingplanning #weddinginspo #instawedding #weddingtrends #weddingideas #theaisleguide #montanawedding #montanabride" src="https://scontent.cdninstagram.com/vp/14311f235344dafdd6cdb35000a7a295/5E581C19/t51.2885-15/e35/c0.180.1440.1440a/s150x150/74621050_152437779369176_9021049524337181242_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							
+						</div>
+				    	
+				    	<div class="col-flex-image">
+				
+				
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B4x1MdTjZ5r/"><img class="img-responsive" alt="Feel confident in booking your caterer! Whether your friends or family members recommended a caterer to you or you attended another event where that caterer provided the food, always do your homework before booking! Find out what questions to ask through the link in our bio. ⠀
+							⠀
+							📸 @jakeandneciaphoto" src="https://scontent.cdninstagram.com/vp/fd74e6b827bdf014a66f295fc6523075/5E4B33AF/t51.2885-15/e35/s150x150/73162675_151744662748585_3122098929088283943_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+				
+						</div>
+				        
+						<div class="col-flex-image">
+				
+							<!-- THEME DEBUG -->
+							<!-- THEME HOOK: 'instagram_block_image' -->
+							<!-- BEGIN OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							<a class="group" target="_blank" data-instagram-rel="1" href="https://www.instagram.com/p/B4vh8ixD1se/"><img class="img-responsive" alt="Down by the lake at Laurel Haven Estate, Grace Forever Weddings created a multitude of shoots to inspire brides and grooms to be! The moody and edgy style was carried on throughout the entire shoot, but the change of attire and scenery brought a whole new look. Link in bio for the diverse array of inspiration! 🇺🇸⁠⠀
+							⁠⠀
+							Venue @laurelhavenestate⁠⠀
+							Photography @hilarykoonphotography⁠⠀
+							Planning @graceforeverweddings⁠⠀
+							Signage @_unspokendesigns_⁠⠀
+							Florals @vintagesoulfloraldesign⁠⠀
+							Dresses @meagankellydesigns @hopesbridalboutique⁠⠀
+							Hair @uptownfunkyouupdo ⁠⠀
+							Makeup @theposhpaletteartistry ⁠⠀
+							Cocktails @blackmothbars⁠⠀
+							Cake @lilycakesnc⁠⠀
+							Gift Boxes @gratefulgadgets⁠⠀
+							⁠⠀
+							#militarywedding #weddingplanner #weddingblog #bridal #weddingphotographer #groom #outfits #togetherforever #instawedding #loveyou #dreamwedding #nationwideweddingplanner #wedding #couplegoals #couple #weddingcouple #weddings #bride #bridetobe #weddingplanning #styledshoot #wedinginspo #brideandgroom #realwedding #weddingideas #weddinginspo #theaisleguide" src="https://scontent.cdninstagram.com/vp/d6b436891b89c2915363219647105e2f/5E4C1E21/t51.2885-15/e35/c0.180.1440.1440a/s150x150/75234570_2406289079588272_4066806823306552067_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="300px"></a>
+							<!-- END OUTPUT from 'modules/contrib/instagram_block/templates/instagram-block-image.html.twig' -->
+							
+						</div>
+				    </div>
+				</div>
+		    </div>
+	    </div>
+	    
+	    <div class="component-footer">
+		    <div class="cta">
+		        <a class="component-cta pl-0 pr-0 primary w-100" href="https://www.instagram.com/aisleplanner/" target="_blank">
+		        	<span>Follow us on Instagram</span>
+		        </a>
+		    </div>
+	    </div>
+	</div>
+</section>
+
+			</div>
+		</div>
+    </div>
+
+</section>
+
+
+
+    </div><!-- /#main -->
+
+    <!--/*
+	Main HTML template for the global-footer component.
+*/-->
+<footer class="component-global-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Legal</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Community</h4>
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Industry Events</a></li>
+						<li><a href="#">Pro Partners</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Customer Care</h4>
+					<ul>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-xl-5 offset-xl-1">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Enter Email" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn btn-border-white hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />						
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="../js/pagelibs.js"></script>
+    <!-- endbuild -->
+
+    </body>
+
+</html>

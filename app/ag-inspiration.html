@@ -1,0 +1,952 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TAG Inspiration Story</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the ag-page-inspiration-tmp component.
+*/-->
+
+<!-- Top banner -->
+<section class="component-ag-page-inspiration-tmp">
+    <section class="top-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mob-full-width">
+                    <!--/*
+    Main HTML template for the banner component.
+*/-->
+<section class="component-banner component-banner-lg background-image w-100 d-none d-lg-block" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-none d-md-block d-lg-none" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-md-none d-block" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+                </div>
+            </div>
+            <div class="row mob-bg-gray">
+                <div class="col-12 add-flag"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main title -->
+    <section>
+        <div class="container mob-bg-gray">
+            <div class="row">
+                <div class="col-12 content-title pad-top-sm">
+                    <!--/*
+    Main HTML template for the ag-title component.
+*/-->
+
+<!-- Variables:
+"category": ["1", "2"],         ---- array 
+"title": "",
+"subTitle": "",
+"class-show-icon-heart": ""     ---- if added class "d-block" - show icon heart
+ -->
+
+<section class="component-ag-title title-body text-center">
+    <div class="text-container">
+        <h5 class="topic text-gold">
+            <a class="topic" href="#">Real Wedding</a><span> / </span>
+        </h5>
+        <h2 class="title mb-4">Staying Grounded: A Rusty Gate Estate Wedding</h2>
+        <p class="sub-title pad-top mb-4">Earthy Tones, Minimalist Modern Fair</p>
+    </div>
+    <div class="icon-heart text-center d-block mt-2">
+        <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+    </div>
+</section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mob-heart d-md-none">
+        <div class="icon-heart text-center d-block mt-2">
+            <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+        </div>
+    </div>
+
+    <section class="content pad-top-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="text-container sm-fz-19">
+                        <p>Alex had recently moved from Albury to Geelong making planning a wedding tougher than usual.
+                            Working as a child psychologist with a super busy schedule she met up with her wedding
+                            planner from Darling Don't Panic, to ease the wedding preparation process by setting monthly
+                            tasks. Months of planning for Alex and Justin turned out to become a gorgeous earthy toned
+                            wedding with modern and minimalist flair. Set amongst the Bellarine Peninsula, in an award
+                            winning Australian olive grove, this young couple’s venue at the Rusty Gate Estate featured
+                            expansive views, and grand gardens. The reception’s ceiling floral installation was one of
+                            the most important features for Alex. So after meeting with a few florists, Charlie & Co
+                            really understood the unstructured and organic look Alex was going for. This resulted in
+                            hearty floral bouquets and centerpieces that gave the minimal place setting and reception
+                            decor a grounded and comforting design. With Truffleduck’s thrilling meal experience
+                            catering the reception, this wedding was rich with not only picturesque design, but
+                            delicious ambiance.</p>
+                    </div>
+
+                    <!-- photo gallery -->
+                    <div class="gallery-container container px-0 pl-sm-4 pt-5">
+                        <div class="row">
+                            <div class="col-6 col-md-4 pl-0 pr-2 pr-sm-4">
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_01.png"></a>
+                                </div>
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_02.png"></a>
+                                </div>
+                                <div class="image pb-3 pb-sm-4 d-none d-md-block">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_03.png"></a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 pr-0 pl-2 pl-sm-0 pr-sm-4">
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_04.png"></a>
+                                </div>
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_05.png"></a>
+                                </div>
+                                <div class="image pb-3 pb-sm-4 d-none d-md-block">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_06.png"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 pl-0 pr-4 d-none d-md-block">
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_07.png"></a>
+                                </div>
+                                <div class="image pb-3 pb-sm-4">
+                                    <a href="#"><img class="img-responsive img-fullwidth"
+                                            src="../images/inspiration/insp_gallery_08.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cta text-center d-none margin-top-lg d-lg-block">
+                            <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary-reverse"><!--<i class="fab fa-facebook-f"></i>--> <span>VIEW FULL GALLERY</span></a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-12 col-lg-4 col-xl-3 ml-lg-auto mt-lg-0 margin-top-lg right-sidebar">
+                    <section class="sidebar">
+                        <section class="siderbar-title">
+                            <div class="container">
+                                <div class="row px-0 justify-content-center">
+                                    <div class="col-10 col-sm-7 col-lg-12 px-0 text-center">
+                                        <a class="cta-grey mt-2 px-2 w-100" href="#"><i class="fw-600 far fa-th-large"></i> VIEW
+                                            FULL GALLERY</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="sidebar-share py-5 py-lg-0 ">
+                            <!--/*
+    Main HTML template for the ag-share component.
+*/-->
+<section class="component-ag-share">
+	<div class="content align-items-center justify-content-center justify-content-lg-start d-flex py-4">
+		<h5 class="mb-0 mr-5 share-text">Share</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button">
+                <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+            </div>
+			<div data-network="facebook" class="st-custom-button">
+                <a href="facebook.html"><i class="fab fa-facebook-f"></i></a>
+            </div>
+			<div data-network="pinterest" class="st-custom-button">
+                <a href="pinterest.html"><i class="fab fa-pinterest"></i></a>
+            </div>
+			<div data-network="instagram" class="st-custom-button">
+                <a href="@@instagram_url"><i class="fab fa-instagram"></i></a>
+            </div>
+			<div data-network="email" class="st-custom-button">
+                <a href="email.html"><i class="far fa-envelope"></i></a>
+            </div>
+		</div>
+    </div>
+</section>
+
+                        </section>
+
+                        <section>
+                            <div class="container px-0">
+                                <div class="border-bottom border-dark"></div>
+                            </div>
+                        </section>
+
+                        <section class="sidebar-mob-container d-sm-flex d-lg-block justify-content-md-between">
+                            <div class="container px-0">
+                                <div class="row">
+                                    <div class="col-sm-8 col-lg-12">
+                                        <section class="sidebar-list pt-5 pb-4">
+                                            <div class="container px-0">
+                                                <div class="row">
+                                                    <ul class="col-6 col-lg-12 mb-0">
+                                                        <li class="item">
+                                                            <span>Contributor</span>
+                                                            <span class="text-gold">Darling Don't Panic®</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Photographer</span>
+                                                            <span>Ed Sloane</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Location & Venue</span>
+                                                            <span>Rusty Gate Weddings</span>
+                                                            <span>Curlewis, VIC</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Wedding Planner</span>
+                                                            <span class="text-gold">Darling Don't Panic&nbsp;®</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Stationery</span>
+                                                            <span>Studio Silva</span>
+                                                        </li>
+                                                    </ul>
+
+                                                    <ul class="col-6 col-lg-12">
+                                                        <li class="item">
+                                                            <span>Floral Designer</span>
+                                                            <span>Charlie and Co Flowers</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Equipment & Decor Rentals</span>
+                                                            <span>Memphis Hire</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Catering</span>
+                                                            <span>Truffleduck</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span>Linens</span>
+                                                            <span>Simmons Linen</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-12 d-block d-sm-none d-lg-block">
+                                        <section class="component-leaderboard-ad">
+                                            <div class="container">
+                                                <div class="row text-center d-flex justify-content-center">
+                                                    <div
+                                                        class="col-content col-9 col-md-11 col-lg-12 bg-gray-c d-flex align-items-center justify-content-center">
+                                                        <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad ">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard ">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half ">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium d-flex d-md-none d-lg-flex">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-12">
+                                        <section class="content related-topics mt-2 pt-5">
+                                            <section class="sidebar-list pb-4">
+                                                <div class="container px-0">
+                                                    <h5 class="topic">RELATED TOPICS</h5>
+                                                    <div class="row">
+                                                        <div class="col-6 col-sm-12">
+                                                            <ul>
+                                                                <li class="item">
+                                                                    <span>Styles:</span>
+                                                                    <span>Modern Rustic</span>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <span>Venue:</span>
+                                                                    <span>Vineyard</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-6 col-sm-12">
+                                                            <ul>
+                                                                <li class="item">
+                                                                    <span>Season:</span>
+                                                                    <span>Summer Autumn</span>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <div class="colors">
+                                                                        <span>Colors:</span>
+                                                                        <div class="circle-container d-flex mt-3">
+                                                                            <span class="color-circle green"></span>
+                                                                            <span class="color-circle grey"></span>
+                                                                            <span class="color-circle grey-dark"></span>
+                                                                            <span class="color-circle"></span>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="content d-lg-none">
+                            <div class="container margin-top-sm margin-bot-sm">
+                                <div class="row">
+                                    <div class="col-12 border-bottom border-dark"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content d-none d-lg-block">
+        <div class="container margin-top-sm margin-bot-sm">
+            <div class="row">
+                <div class="col-12 border-bottom border-dark"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">You Might Also Like</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="body-cards pt-5">
+        <div class="component-body sync-boxes">
+            <div class="container px-md-0">
+                <div class="row num-show-card" data-num-md="3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_01.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">An Elegant Floral <br>La Jolla Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body"></div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_02.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">Minimalist Italian Destination Wedding in Tuscany</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Minimalist Details with a Grand Setting</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_03.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">STYLED SHOOT</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Modern Fairytale Wedding in Michigan</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_04.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">STYLED SHOOT</a></h4>
+			<h2 class="title">
+				<a href="@@url">Sweet Pacific Coast Wedding Inspiration</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Soft Blush Tones and Modern Details</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_05.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Romantic Garden State Room Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Distant Drum Rose Inspired Color Palette</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_06.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Perfectly Parisian Destination Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Crisp Ivory with a Touch of Blush Pink</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spacer margin-bot-lg d-none d-lg-block"></div>
+    <section class="bg-lt-gray margin-top-lg d-none d-md-block d-lg-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <!-- classTitle "gold-underline" - adds gold underline to title (h2) -->
+                    <!--/*
+    Main HTML template for the card-contact component.
+*/-->
+
+<!-- 
+variables:
+"classTitle": "",	---- if added class "gold-underline - show horizontal gold line"
+"title": "",			
+"body": "",			
+"ctaLabel": "" 
+-->
+<article class="component-card-contact box">
+	<div class="content">
+		<header>
+			<h2 class="title gold-underline">Lorem ipsum dolor sit amet.</h2>
+		</header>
+		<section>
+			<div class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, blanditiis placeat natus optio suscipit, excepturi quod rem. Repudiandae numquam, quidem!</div>
+			<!-- If CTA -->
+			<div class="cta">
+				<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>sing up</span></a>
+
+
+			</div>
+			<!-- end if -->
+		</section>
+	</div>
+</article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+
+</div><!-- /#main -->
+
+<!--/*
+    Main HTML template for the ag-global-footer-tmp component.
+*/-->
+<footer class="component-global-footer component-ag-global-footer-tmp">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="ag-about_new.html">About</a></li>
+						<li><a href="http://localhost:3000/ag-press.html">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="http://localhost:3000/ag-contact-us_new.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">For Pros</h4>
+					<ul>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Advertise with Us</a></li>
+						<li><a href="#">Join Our Pro Community</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-12 col-xl-5 offset-sm-4 offset-xl-3">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Email Address" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2020 The Aisle Guide &nbsp;&nbsp; | &nbsp;&nbsp; Powered by <a class="logo-bottom" href="/">
+					<img class="img-responsive img-standard" src="./../images/logo-white-color.png">
+				</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- datepicker for forms -->
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<!-- END datepicker for forms -->
+
+<!-- build:js scripts/main.js -->
+<script src="../js/pagelibs.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

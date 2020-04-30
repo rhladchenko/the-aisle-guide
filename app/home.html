@@ -1,0 +1,1615 @@
+
+
+<!--/*
+    Main HTML template for the modal component.
+*/-->
+<section class="component-modal">
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							<p>Subhead lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						
+						<div class="row modal-modified">
+							<div class="col-12 col-md-6 offset-md-3 modal-modified">
+								<div class="ctas">
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta facebook"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Facebook</span></a>
+
+
+									</div>
+									
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Email</span></a>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="createAccountModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>It looks like an account already exists for this email.</li>
+									<li>Go ahead and <a href="#">sign in</a> to your account or <a href="#">reset your password</a> if you've forgotten it.</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Email Address" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="company" class="form-input form-text" placeholder="Company Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="password" class="form-input form-text error-field" placeholder="Choose a Password" />
+									</div>
+									<div class="col-12 modal-modified">
+										<div class="custom-select ">
+											<select name="interest">
+												<option value="0">What are you most interested in?</option>
+												<option value="1">Audi</option>
+												<option value="2">BMW</option>
+												<option value="3">Citroen</option>
+												<option value="4">Ford</option>
+												<option value="5">Honda</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 modal-modified">
+										<p class="terms"><input type="checkbox" name="terms"> I have read and agree to the Terms of Service and Privacy Policy. I understand that as part of my service I will receive email communications regarding my account from Aisle Planner which I can unsubscribe from at any time.</u></p>
+									</div>
+									<div class="col-12 modal-modified">
+										<div id="promo-code-dialog" class="h5">Promo or Referral Code?</div>
+									</div>
+									<div id="promo-code" style="display:none;">
+										<div class="col-12 modal-modified">
+											<input type="text" name="promo" class="form-input form-text" placeholder="Promo/Referral Code" />
+										</div>
+									</div>
+								</div>
+							</form>
+							
+						</div>
+						
+						<div class="ctas">
+							<div class="cta">
+								<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Start My Trial</span></a>
+
+
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Sign In</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>Looks like you misspelled "Toodles".</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Username" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Password" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn" value="Sign In" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p style="margin-top: 2rem;" class="text-left"><a href="#"><strong>Forget your password?</strong></a></p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p class="h5 or dash-text-left dash-text-right">Or</p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn bg-facebook" value="Sign In With Facebook" />
+									</div>
+						
+								</div>
+							</form>
+							
+							<div class="row modal-modified">
+								<div class="col-12 col-md-6 offset-md-3 modal-modified">
+									<div id="no-account" class="text-left">
+										<p>Don't have an account? <a href="#">Sign Up</a>.</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the fifty-fifty component.
+
+    CMS Options:
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Variation:
+      - Image on Left:     image-left
+      - Image on Right:    image-right
+
+*/-->
+
+
+<!-- Variation: Background Image Right -->
+<section class="component-fifty-fifty  image-right show-bg-image">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Right</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+<!-- Variation: Background Image Left -->
+<section class="component-fifty-fifty  image-left show-bg-image vertical-line">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6 offset-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Left</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+<!-- Variation: Background Image Right -->
+<section class="component-fifty-fifty  image-right show-bg-image gray-background">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Right w. Grey</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+<!-- Variation: Background Image Right -->
+<section class="component-fifty-fifty  image-right show-bg-image gray-background vertical-line">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Right w. Grey</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+<!-- Variation: Alternate Background Image Right w. H4 -->
+<section class="component-fifty-fifty  image-right show-bg-image alternate-image">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6">
+				<div class="component-content">
+					<h4>Laboris Nisi</h4>
+					<h1>Variation: Alternate Background Image Right w. H4</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+<!-- Variation: Background Image Left -->
+<section class="component-fifty-fifty  image-left show-bg-image alternate-image">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6 offset-lg-6">
+				<div class="component-content">
+					<h1>Variation: Alternate Background Image Left</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+
+<!-- Variation: Background Image Left w. Center-->
+<section class="component-fifty-fifty  image-left show-bg-image ">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6 offset-lg-6">
+				<div class="component-content text-centered">
+					<h5>An h5 in the wild</h5>
+					<h1>Variation: Background Image Left w. Center</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h4>October 14, 2019</h4>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+<!-- Variation: Normal Image Right -->
+<section class="component-fifty-fifty  image-right">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-lg-6 order-lg-2">
+				<div class="component-image">
+					<img class="img-responsive" src="../images/hero-photo.png">
+				</div>
+			</div>
+			<div class="col-content col-12 col-lg-6 order-lg-1">
+				<div class="component-content">
+					<h1>Variation: Normal Image Right</h1>
+					<div class="body">
+						<ul class="dash-list">
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Praesent eu arcu et nulla tincidunt dignissim sit amet sed urna.</li>
+							<li>Phasellus fringilla mi finibus libero faucibus, id convallis dolor commodo.</li>
+						</ul>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+<!-- Variation: Normal Image Left -->
+<section class="component-fifty-fifty image-left">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-lg-6 order-lg-1">
+				<div class="component-image">
+					<img class="img-responsive" src="../images/hero-photo.png">
+				</div>
+			</div>
+			<div class="col-content col-12 col-lg-6 order-lg-2">
+				<div class="component-content">
+					<h1>Variation: Normal Image Left </h1>
+					<div class="body"></div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+<!-- Variation: Normal Image Right -->
+<section class="component-fifty-fifty image-right gray-background">
+	<div class="background"></div>
+	<div class="container">
+		<div class="gray">
+			<div class="row">
+			
+				<div class="col-image col-12 col-lg-6 order-lg-2">
+					<div class="component-image">
+						<img class="img-responsive" src="../images/hero-photo.png">
+					</div>
+				</div>
+				<div class="col-content col-12 col-lg-6 order-lg-1">
+					<div class="component-content text-centered">
+						<h1>Variation: Normal Image Right Text Centered</h1>
+						<div class="body"></div>
+						<div class="cta">
+							<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--/*
+    Main HTML template for the banner-inline component.
+
+    CMS Options:
+
+    Text Color:
+      - black:		text-black
+      - white:		text-white
+
+    Background Color:
+      - white:			bg-white
+      - gray:			bg-lt-gray
+      
+    Long Text:
+      - long-text		long-text	
+
+	Accents:
+	  - gold underline	gold-underline
+	  - extra padding	extra-padding
+	  
+	  
+   
+*/-->
+
+
+<!-- Variation: white background, black text -->
+<section class="component-banner-inline text-centered text-black gold-underline long-text">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+				<header>
+					<h4>All in one place. All behind one login. That’s the Power of One.</h4>
+					<h2>Seamlessly integrated with our sales and project management tools, Aisle Planner’s marketing tools give you everything you need to captivate new clients and capture their business.</h2>
+				</header>
+				<div class="component-content">
+					<div class="body">
+						<p>Subhead lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<!-- If CTA -->
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+					<!-- end if -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Variation: gray backgroud  -->
+<section class="component-banner-inline text-centered bg-lt-gray extra-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+				<header>
+					<h2>Inline Banner Component (a.k.a. Value Prop)</h2>
+				</header>
+				<div class="component-content">
+					<div class="body">
+						<p>Subhead lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--/*
+    Main HTML template for the columns component.
+
+    CMS Options:
+
+    Text Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+
+*/-->
+
+
+<!-- Variation: Connector images, black text -->
+<section class="component-columns  text-black">
+	<div class="container">
+		<div class="component-header text-centered">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<header>
+						<h2>Columns Component</h2>
+					</header>
+					<!-- if Intro Text -->
+					<div class="component-intro text-large">
+						<p>Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel. Munere fabulas lucilius ei mea. An vix salutandi expetenda ullamcorper.</p>
+					</div>
+					<!-- end if -->
+				</div>
+			</div>
+		</div>
+		<div class="component-body sync-boxes">
+			<div class="row">
+				<div class="col-12">
+					<div class="columns row">
+						<div class="col-12 col-md-4">
+							<!--/*
+    Main HTML template for the card-slash component.
+*/-->
+
+<section class="component-card-slash">
+
+	<div class="content">
+		<div class="slash-label">
+			1
+		</div>
+		<header>
+			<h5>Connectivity</h5>
+		</header>
+		<div class="body">
+			<p>Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel. Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel.</p>
+		</div>
+		<!-- if CTA -->
+		<div class="cta">
+			<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta secondary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+		</div>
+		<!-- end if -->
+	</div>
+</section>
+
+						</div>
+
+						<div class="col-12 col-md-4">
+							<!--/*
+    Main HTML template for the card-slash component.
+*/-->
+
+<section class="component-card-slash">
+
+	<div class="content">
+		<div class="slash-label">
+			2
+		</div>
+		<header>
+			<h5>Data Management</h5>
+		</header>
+		<div class="body">
+			<p>Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel. Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel.</p>
+		</div>
+		<!-- if CTA -->
+		<div class="cta">
+			<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta secondary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+		</div>
+		<!-- end if -->
+	</div>
+</section>
+
+						</div>
+						
+						<div class="col-12 col-md-4">
+							<!--/*
+    Main HTML template for the card-slash component.
+*/-->
+
+<section class="component-card-slash">
+
+	<div class="content">
+		<div class="slash-label">
+			3
+		</div>
+		<header>
+			<h5>Analytics + Insight</h5>
+		</header>
+		<div class="body">
+			<p>Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel. Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel.</p>
+		</div>
+		<!-- if CTA -->
+		<div class="cta">
+			<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta secondary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+		</div>
+		<!-- end if -->
+	</div>
+</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+
+
+<!--/*
+    Main HTML template for the carousel component.
+*/-->
+<section class="component-carousel bg-gray">
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<!--/*
+    Main HTML template for the testimonial component.
+
+    CMS Options:
+
+    Text Color:
+      - black:		text-black
+      - white:		text-white
+
+    Background Color:
+      - white:			bg-white
+      - gray:			bg-lt-gray	
+
+	Accents:
+	  - gold underline	gold-underline
+	  - extra padding	extra-padding
+	  - quote			quote
+	  
+*/-->
+
+<section class="component-testimonial quote text-centered gold-underline">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+				<header>
+					<h2>'Cause Chevy didn't make a 327 in '55, the 327 didn't come out till '62. And it wasn't offered in the Bel Air with a four-barrel carb till '64. However, in 1964, the correct ignition timing would be four degrees before top-dead-center.</h2>
+				</header>
+				<div class="component-content">
+					<div class="body">
+						<p class="attributed h4">Mona Lisa Vito</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+			</div>
+			<div class="carousel-item">
+				<!--/*
+    Main HTML template for the testimonial component.
+
+    CMS Options:
+
+    Text Color:
+      - black:		text-black
+      - white:		text-white
+
+    Background Color:
+      - white:			bg-white
+      - gray:			bg-lt-gray	
+
+	Accents:
+	  - gold underline	gold-underline
+	  - extra padding	extra-padding
+	  - quote			quote
+	  
+*/-->
+
+<section class="component-testimonial quote text-centered gold-underline">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+				<header>
+					<h2>'Cause Chevy didn't make a 327 in '55, the 327 didn't come out till '62. And it wasn't offered in the Bel Air with a four-barrel carb till '64. However, in 1964, the correct ignition timing would be four degrees before top-dead-center.</h2>
+				</header>
+				<div class="component-content">
+					<div class="body">
+						<p class="attributed h4">Mona Lisa Vito</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+			</div>
+			<div class="carousel-item">
+				<!--/*
+    Main HTML template for the testimonial component.
+
+    CMS Options:
+
+    Text Color:
+      - black:		text-black
+      - white:		text-white
+
+    Background Color:
+      - white:			bg-white
+      - gray:			bg-lt-gray	
+
+	Accents:
+	  - gold underline	gold-underline
+	  - extra padding	extra-padding
+	  - quote			quote
+	  
+*/-->
+
+<section class="component-testimonial quote text-centered gold-underline">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+				<header>
+					<h2>'Cause Chevy didn't make a 327 in '55, the 327 didn't come out till '62. And it wasn't offered in the Bel Air with a four-barrel carb till '64. However, in 1964, the correct ignition timing would be four degrees before top-dead-center.</h2>
+				</header>
+				<div class="component-content">
+					<div class="body">
+						<p class="attributed h4">Mona Lisa Vito</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+			</div>
+		</div>
+	  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"><img class="arrow" src="../images/arrow-left.svg" /></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"><img class="arrow" src="../images/arrow-right.svg" /></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+</section>
+
+
+
+<!--/*
+    Main HTML template for the profession component.
+*/-->
+<section class="component-profession">
+
+    <div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-md-6 col-xl-6">
+				<div class="component-top">
+					<div class="component-vertical">
+						<span class="h5">The Power of Left</span>
+					</div>
+					<div class="component-image">
+						<img class="img-responsive" src="../images/default-profession.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-content col-12 col-md-6 col-xl-9 offset-xl-3">
+				<div class="component-content">
+					<h5>Company Name</h5>
+					<h2>Every Profession. <br />Every Event. Everywhere.</h2>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<ul class="dash-list">
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Praesent eu arcu et nulla tincidunt dignissim sit amet sed urna.</li>
+							<li>Phasellus fringilla mi finibus libero faucibus, id convallis dolor commodo.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section class="component-profession image-right">
+
+    <div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-md-6 col-xl-6 order-md-2">
+				<div class="component-top">
+					<div class="component-vertical">
+						<span class="h5">The Power of Right</span>
+					</div>
+					<div class="component-image">
+						<img class="img-responsive" src="../images/default-profession.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-content col-12 col-md-6 col-xl-9 order-md-1">
+				<div class="component-content">
+					<h5>Company Name</h5>
+					<h2>Every Profession. <br />Every Event. Everywhere.</h2>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<ul class="dash-list">
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li>Praesent eu arcu et nulla tincidunt dignissim sit amet sed urna.</li>
+							<li>Phasellus fringilla mi finibus libero faucibus, id convallis dolor commodo.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section class="component-profession">
+
+    <div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-md-6 col-xl-6">
+				<div class="component-top">
+					<div class="component-vertical">
+						<span class="h5">The Power of Columns</span>
+					</div>
+					<div class="component-image">
+						<img class="img-responsive" src="../images/default-profession.png">
+					</div>
+				</div>
+			</div>
+			<div class="col-content col-12 col-md-6 col-xl-9 offset-xl-3">
+				<div class="component-content">
+					<h5>Company Name</h5>
+					<h2>Two Column UL Class</h2>
+					<div class="body">
+							<ul class="dash-list two-columns">
+							<li>Lorem ipsum dolor</li>
+							<li>Praesent eu arcu</li>
+							<li>Phasellus fringilla</li>
+							<li>Lorem ipsum dolor</li>
+							<li>Praesent eu arcu</li>
+							<li>Phasellus fringilla</li>
+							<li>Lorem ipsum dolor</li>
+							<li>Praesent eu arcu</li>
+							<li>Phasellus fringilla</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!--/*
+    Main HTML template for the fifty-fifty-centered component.
+*/-->
+
+<!-- Variation: Image Left -->
+<section class="component-fifty-fifty-centered">
+	<div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-md-6">
+				<div class="component-image">
+					<img class="img-responsive" src="../images/hero-photo.png">
+				</div>
+			</div>
+			<div class="col-content col-12 col-md-6">
+				<div class="component-content">
+					<h1>Variation: Image Left</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dui, ultricies nec felis id, malesuada varius ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pulvinar ligula at leo facilisis, sit amet sollicitudin elit maximus. Ut malesuada lectus in odio aliquet, et euismod ante dictum. Integer aliquam justo et varius faucibus. Aliquam sit amet auctor mi. Aliquam id cursus eros. Praesent vitae felis nisl.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dui, ultricies nec felis id, malesuada varius ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pulvinar ligula at leo facilisis, sit amet sollicitudin elit maximus. Ut malesuada lectus in odio aliquet, et euismod ante dictum. Integer aliquam justo et varius faucibus. Aliquam sit amet auctor mi. Aliquam id cursus eros. Praesent vitae felis nisl.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Variation: Image Right -->
+<section class="component-fifty-fifty-centered">
+	<div class="container">
+		<div class="row">
+			<div class="col-image col-12 col-md-6 order-md-2">
+				<div class="component-image">
+					<img class="img-responsive" src="../images/hero-photo.png">
+				</div>
+			</div>
+			<div class="col-content col-12 col-md-6 order-md-1">
+				<div class="component-content">
+					<h1>Variation: Image Right</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dui, ultricies nec felis id, malesuada varius ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pulvinar ligula at leo facilisis, sit amet sollicitudin elit maximus. Ut malesuada lectus in odio aliquet, et euismod ante dictum. Integer aliquam justo et varius faucibus. Aliquam sit amet auctor mi. Aliquam id cursus eros. Praesent vitae felis nisl.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dui, ultricies nec felis id, malesuada varius ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pulvinar ligula at leo facilisis, sit amet sollicitudin elit maximus. Ut malesuada lectus in odio aliquet, et euismod ante dictum. Integer aliquam justo et varius faucibus. Aliquam sit amet auctor mi. Aliquam id cursus eros. Praesent vitae felis nisl.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+    </div><!-- /#main -->
+
+    <!--/*
+	Main HTML template for the global-footer component.
+*/-->
+<footer class="component-global-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Legal</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Community</h4>
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Industry Events</a></li>
+						<li><a href="#">Pro Partners</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Customer Care</h4>
+					<ul>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-xl-5 offset-xl-1">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Enter Email" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn btn-border-white hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />						
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="../js/pagelibs.js"></script>
+    <!-- endbuild -->
+
+    </body>
+
+</html>

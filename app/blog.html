@@ -1,0 +1,990 @@
+
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the modal component.
+*/-->
+<section class="component-modal">
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							<p>Subhead lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						
+						<div class="row modal-modified">
+							<div class="col-12 col-md-6 offset-md-3 modal-modified">
+								<div class="ctas">
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta facebook"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Facebook</span></a>
+
+
+									</div>
+									
+									<div class="cta">
+										<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Sign Up With Email</span></a>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="createAccountModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Create an Account</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>It looks like an account already exists for this email.</li>
+									<li>Go ahead and <a href="#">sign in</a> to your account or <a href="#">reset your password</a> if you've forgotten it.</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Email Address" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="company" class="form-input form-text" placeholder="Company Name" />
+									</div>
+									<div class="col-12 col-sm-6 modal-modified">
+										<input type="text" name="password" class="form-input form-text error-field" placeholder="Choose a Password" />
+									</div>
+									<div class="col-12 modal-modified">
+										<div class="custom-select ">
+											<select name="interest">
+												<option value="0">What are you most interested in?</option>
+												<option value="1">Audi</option>
+												<option value="2">BMW</option>
+												<option value="3">Citroen</option>
+												<option value="4">Ford</option>
+												<option value="5">Honda</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 modal-modified">
+										<p class="terms"><input type="checkbox" name="terms"> I have read and agree to the Terms of Service and Privacy Policy. I understand that as part of my service I will receive email communications regarding my account from Aisle Planner which I can unsubscribe from at any time.</u></p>
+									</div>
+									<div class="col-12 modal-modified">
+										<div id="promo-code-dialog" class="h5">Promo or Referral Code?</div>
+									</div>
+									<div id="promo-code" style="display:none;">
+										<div class="col-12 modal-modified">
+											<input type="text" name="promo" class="form-input form-text" placeholder="Promo/Referral Code" />
+										</div>
+									</div>
+								</div>
+							</form>
+							
+						</div>
+						
+						<div class="ctas">
+							<div class="cta">
+								<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>Start My Trial</span></a>
+
+
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="createAcountModalLabel" aria-hidden="true">		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<header>
+						<h1>Sign In</h1>
+					</header>
+					<div class="component-content">
+						<div class="body">
+							
+							<div class="error-list">
+								<ul>
+									<li>Looks like you misspelled "Toodles".</li>
+								</ul>
+							</div>
+							
+							<form id="create-an-account">
+								<div class="row modal-modified">
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="name" class="form-input form-text" placeholder="Username" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="text" name="email" class="form-input form-text" placeholder="Password" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn" value="Sign In" />
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p style="margin-top: 2rem;" class="text-left"><a href="#"><strong>Forget your password?</strong></a></p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<p class="h5 or dash-text-left dash-text-right">Or</p>
+									</div>
+									<div class="col-12 col-md-6 offset-md-3 modal-modified">
+										<input type="submit" name="submit" class="btn bg-facebook" value="Sign In With Facebook" />
+									</div>
+						
+								</div>
+							</form>
+							
+							<div class="row modal-modified">
+								<div class="col-12 col-md-6 offset-md-3 modal-modified">
+									<div id="no-account" class="text-left">
+										<p>Don't have an account? <a href="#">Sign Up</a>.</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+<!--/*
+    Main HTML template for the fifty-fifty component.
+
+    CMS Options:
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Variation:
+      - Image on Left:     image-left
+      - Image on Right:    image-right
+
+*/-->
+
+
+<!-- Variation: Background Image Left -->
+<section class="component-fifty-fifty  image-left show-bg-image vertical-line">
+	<div class="background"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-content col-12 col-lg-6 offset-lg-6">
+				<div class="component-content">
+					<h1>Variation: Background Image Left</h1>
+					<div class="body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="cta">
+						<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--/*
+    Main HTML template for the cards component.
+
+    CMS Options:
+
+    Text Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Background Color
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Background Image
+      - (cf. /fed/components/use-cases/use-cases.html)
+
+    Number of Columns:
+      - 3
+      - 4
+
+    CTA Style:
+      - Solid Green:	primary
+      - Green Outline:	secondary
+      - White Outline:	secondary-white
+*/-->
+
+
+<!-- Variation: Three columns, black text, lt gray background -->
+<section class="component-cards text-centered text-black">
+	<div class="container">
+		<div class="component-header">
+			<div class="row">
+				<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+					<header>
+						<h2>Cards Component (3-Up)</h2>
+					</header>
+					<!-- if Intro Text -->
+					<div class="component-intro text-large">
+						<p>Lorem ipsum dolor sit amet, cum ut tantas dolores partiendo, soluta ridens ex mel. Munere fabulas lucilius ei mea. An vix salutandi expetenda ullamcorper.</p>
+					</div>
+					<!-- end if -->
+				</div>
+			</div>
+		</div>
+
+		<!--/*
+    Main HTML template for the term-navigation component.
+*/-->
+<section class="component-term-navigation">
+
+	<nav class="navbar navbar-expand-lg ">
+
+		<a class="navbar-brand font-stretch" href="#">Category: <strong>All</strong></a>
+
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+				<i class="fas fa-chevron-down"></i>
+				<i class="fas fa-chevron-up" style="display: none;"></i>
+			</span>
+		</button>
+
+		<div class="navbar-collapse collapse" id="navbarsExample03">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link font-stretch" href="#">All</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link font-stretch" href="#">Business & Resources <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link font-stretch" href="#">Education</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+</section>
+
+
+
+		<div class="component-body sync-boxes">
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Peaches</a></h4>
+			<h2 class="title">
+				<a href="@@url">Feugiat quis consequat eget tincidunt congue augue</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pasta</a></h4>
+			<h2 class="title">
+				<a href="@@url">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pork Chops</a></h4>
+			<h2 class="title">
+				<a href="@@url">Lorem ipsum dolor sit amet consectetur</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Peaches</a></h4>
+			<h2 class="title">
+				<a href="@@url">Feugiat quis consequat eget tincidunt congue augue</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pasta</a></h4>
+			<h2 class="title">
+				<a href="@@url">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pork Chops</a></h4>
+			<h2 class="title">
+				<a href="@@url">Lorem ipsum dolor sit amet consectetur</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Peaches</a></h4>
+			<h2 class="title">
+				<a href="@@url">Feugiat quis consequat eget tincidunt congue augue</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pasta</a></h4>
+			<h2 class="title">
+				<a href="@@url">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+				<div class="col-12 col-lg-4">
+					<!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/card-default.png"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">Pork Chops</a></h4>
+			<h2 class="title">
+				<a href="@@url">Lorem ipsum dolor sit amet consectetur</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo Adipiscing elit nullam erat justo</div>
+		</section>
+	</div>
+</article>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="component-footer">
+			<div class="cta">
+				<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>learn more</span></a>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+    </div><!-- /#main -->
+
+    <!--/*
+	Main HTML template for the global-footer component.
+*/-->
+<footer class="component-global-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Legal</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Community</h4>
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Industry Events</a></li>
+						<li><a href="#">Pro Partners</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Customer Care</h4>
+					<ul>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="col-12 col-xl-5 offset-xl-1">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Enter Email" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn btn-border-white hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />						
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="../js/pagelibs.js"></script>
+    <!-- endbuild -->
+
+    </body>
+
+</html>

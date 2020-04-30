@@ -1,0 +1,1230 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TAG Pro Listing Page</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the ag-page-pro-listing-tmp component.
+*/-->
+<section class="component-ag-page-pro-listing-tmp">
+
+    <section class="top-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mob-full-width">
+                    <!--/*
+    Main HTML template for the banner component.
+*/-->
+<section class="component-banner component-banner-lg background-image w-100 d-none d-lg-block" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-none d-md-block d-lg-none" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-md-none d-block" style="background-image: url(../images/inspiration/insp_banner_top.png); min-height: 511px;">
+    <h5 class="title d-none">Photo by: Photographer Name</h5>
+</section>
+
+                </div>
+            </div>
+            <div class="banner-icon-btm d-flex justify-content-center">
+                <img src="../images/pro_listing/pro_top_banner_icon.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <div class="content-title pad-top-sm">
+        <!--/*
+    Main HTML template for the ag-title component.
+*/-->
+
+<!-- Variables:
+"category": ["1", "2"],         ---- array 
+"title": "",
+"subTitle": "",
+"class-show-icon-heart": ""     ---- if added class "d-block" - show icon heart
+ -->
+
+<section class="component-ag-title title-body text-center">
+    <div class="text-container">
+        <h5 class="topic text-gold">
+            <a class="topic" href="#">Real Wedding</a><span> / </span>
+        </h5>
+        <h2 class="title mb-4">Veil Tales Weddings</h2>
+        <p class="sub-title pad-top mb-4"></p>
+    </div>
+    <div class="icon-heart text-center d-block mt-2">
+        <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+    </div>
+</section>
+    </div>
+
+    <section class="content link-back d-none d-sm-block margin-top-md">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="link-all hover-decoration-none hover-gold" href="#"><i class="fas fa-arrow-left"></i>
+                        BACK</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content pad-top-md">
+        <div class="container">
+            <div class="row flex-lg-row-reverse">
+                <!-- Right Sidebar -->
+                <div class="col-12 col-lg-4 col-xl-3 ml-lg-auto mt-lg-0 margin-top-lg right-sidebar">
+                    <section class="sidebar">
+                        <section class="siderbar-title">
+                            <div class="container">
+                                <div class="row px-0 justify-content-center">
+                                    <div class="col-10 col-sm-7 col-lg-12 px-0 text-center">
+                                        <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary-reverse w-100"><!--<i class="fab fa-facebook-f"></i>--> <span>CONTACT</span></a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="sidebar-share py-5 py-lg-0 ">
+                            <!--/*
+    Main HTML template for the ag-share component.
+*/-->
+<section class="component-ag-share">
+	<div class="content align-items-center justify-content-center justify-content-lg-start instagram-hide d-flex py-4">
+		<h5 class="mb-0 mr-5 share-text">Share</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button">
+                <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+            </div>
+			<div data-network="facebook" class="st-custom-button">
+                <a href="facebook.html"><i class="fab fa-facebook-f"></i></a>
+            </div>
+			<div data-network="pinterest" class="st-custom-button">
+                <a href="pinterest.html"><i class="fab fa-pinterest"></i></a>
+            </div>
+			<div data-network="instagram" class="st-custom-button">
+                <a href="@@instagram_url"><i class="fab fa-instagram"></i></a>
+            </div>
+			<div data-network="email" class="st-custom-button">
+                <a href="email.html"><i class="far fa-envelope"></i></a>
+            </div>
+		</div>
+    </div>
+</section>
+
+                        </section>
+
+                        <section>
+                            <div class="container px-0">
+                                <div class="border-bottom border-dark"></div>
+                            </div>
+                        </section>
+
+                        <section class="sidebar-mob-container d-sm-flex d-lg-block justify-content-md-between">
+                            <div class="container px-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <section class="sidebar-list pt-5 pb-4">
+                                            <div class="container px-0">
+                                                <div class="row">
+                                                    <ul class="col-12 col-sm-6 col-lg-12 mb-0">
+                                                        <li class="item">
+                                                            <a class="text-md-gray hover-decoration-none font-weight-bold hover-initial" href="#">www.veiltalesweddings.com</a>
+                                                        </li>
+                                                        <li class="item">
+                                                            $$$  /  <span class="stars stars-5"></span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <section class="sidebar-share-2">
+                                                                <!--/*
+    Main HTML template for the ag-share component.
+*/-->
+<section class="component-ag-share">
+	<div class="content align-items-center justify-content-start share-title-hide twitter-hide email-hide d-flex py-4">
+		<h5 class="mb-0 mr-5 share-text">Share</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button">
+                <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+            </div>
+			<div data-network="facebook" class="st-custom-button">
+                <a href="facebook.html"><i class="fab fa-facebook-f"></i></a>
+            </div>
+			<div data-network="pinterest" class="st-custom-button">
+                <a href="pinterest.html"><i class="fab fa-pinterest"></i></a>
+            </div>
+			<div data-network="instagram" class="st-custom-button">
+                <a href="@@instagram_url"><i class="fab fa-instagram"></i></a>
+            </div>
+			<div data-network="email" class="st-custom-button">
+                <a href="email.html"><i class="far fa-envelope"></i></a>
+            </div>
+		</div>
+    </div>
+</section>
+
+                                                            </section>
+                                                            <span>
+                                                                1940 Anchor Ave <br>Oxnard, CA 93035, USA
+                                                            </span>
+                                                        </li>
+                                                        <li class="item">
+                                                            805-366-0266 <br>Cell: 310-218-3205 Ca./ <br>702-277-5592 LV
+                                                        </li>
+                                                        <li class="item">
+                                                            Available for travel
+                                                        </li>
+                                                    </ul>
+
+                                                    <ul class="col-12 col-sm-6 col-lg-12">
+                                                        <li class="item font-weight-bold">
+                                                            SERVING
+                                                        </li>
+                                                        <li class="item">
+                                                            California, USA <br>
+                                                            Las Vegas, NV, USA <br>
+                                                            San Diego, CA, USA <br>
+                                                            San Francisco, CA, USA <br>
+                                                            Los Angeles, CA, USA <br>
+                                                            Ventura, CA, USA
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+                <!-- End sidebar -->
+                <!-- left column content -->
+                <div class="col-12 col-lg-8">
+                    <div class="text-container">
+                        <p>You have just said "YES" to the most important person on the planet and now it's time to plan
+                            your celebration! Veil Tales Weddings is a premier destination wedding and event planning
+                            service in California and Las Vegas.</p>
+
+                        <p>Our goal and our passion is to turn your vision into a celebration as unique and
+                            unforgettable as your love story. We are here to infuse joy into your planning process -
+                            staying with you from the time you say yes until after the " I Do's."</p>
+
+                        <p>Your job is to take a breath and enjoy each moment of your day surrounded by family and
+                            friends.</p>
+
+                        <p>Maybe you're dreaming of a rustic vineyard wedding or an intimate gathering on the beach.
+                            Whatever you're dreaming of, Veil Tales Weddings is here to help create that perfect day
+                            exactly the way you want it!</p>
+
+                        <p>Let's celebrate your unique love story and make your day unforgettable!</p>
+
+
+                        <!-- accordion -->
+
+                        <h5 class="mb-2">PRODUCTS & SERVICES</h5>
+
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="heading_01">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_01" aria-expanded="false"
+                                        aria-controls="collapse_01">Destination Wedding and Event Planning</button>
+                                </div>
+                                <div id="collapse_01" class="collapse" aria-labelledby="heading_01"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias
+                                            excepturi quis natus quae assumenda illo ab, optio nobis voluptates
+                                            voluptate adipisci facilis sunt obcaecati minima architecto delectus impedit
+                                            vel repellendus, exercitationem, quia nemo aperiam nulla. Veritatis error
+                                            accusantium vel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading_02">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_02" aria-expanded="false"
+                                        aria-controls="collapse_02">DIY</button>
+                                </div>
+                                <div id="collapse_02" class="collapse" aria-labelledby="heading_02"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, praesentium!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading_03">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_03" aria-expanded="false"
+                                        aria-controls="collapse_03">Custom Rentals</button>
+                                </div>
+                                <div id="collapse_03" class="collapse" aria-labelledby="heading_03"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                            inventoresapiente eaque nobis, assumenda enim velit suscipit porro quidem
+                                            nesciunt!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading_04">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_04" aria-expanded="false"
+                                        aria-controls="collapse_04">Full Planning</button>
+                                </div>
+                                <div id="collapse_04" class="collapse" aria-labelledby="heading_04"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quis!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading_05">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_05"
+                                        aria-expanded="true" aria-controls="collapse_05">Partial Planning</button>
+                                </div>
+                                <div id="collapse_05" class="collapse show" aria-labelledby="heading_05"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>The Partial-Service is for the couple who wishes to be hands-on in the
+                                            wedding-planning process, but seeks guidance from beginning to end. We are
+                                            here
+                                            to advise you through the entire planning process, then on the big day, it’s
+                                            complete event supervision so you, your family, and friends can relax and
+                                            enjoy the day.</p>
+
+                                        <p>Starts at $4500</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading_06">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_06" aria-expanded="false" aria-controls="collapse_06">Day
+                                        Of Planning</button>
+                                </div>
+                                <div id="collapse_06" class="collapse" aria-labelledby="heading_06"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe culpa, nemo
+                                            eveniet unde velit facere eaque maiores at, omnis ex natus qui ipsum aliquam
+                                            quae alias esse atque odio quod.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End left column content -->
+            </div>
+        </div>
+    </section>
+
+    <section class="content line-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-bottom border-dark"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="content portfolio-title link-back margin-bot-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="link-all font-weight-bold hover-decoration-none hover-gold" href="#">PORTFOLIO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content portfolio-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_portfolio_01.jpg"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">@@tag</a></h4>
+			<h2 class="title">
+				<a href="@@url">Love Notes</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">@@body</div>
+		</section>
+	</div>
+</article>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_portfolio_02.jpg"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">@@tag</a></h4>
+			<h2 class="title">
+				<a href="@@url">Share the Love</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">@@body</div>
+		</section>
+	</div>
+</article>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_portfolio_03.jpg"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">@@tag</a></h4>
+			<h2 class="title">
+				<a href="@@url">Portia and Charles Spring Time in Rancho Santa Fe</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">@@body</div>
+		</section>
+	</div>
+</article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Portfolio -->
+
+    <section class="content line-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-bottom border-dark"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Videos -->
+     <section class="content link-back margin-top-sm margin-bot-sm videos-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="link-all font-weight-bold hover-decoration-none hover-gold" href="#">VIDEOS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content portfolio-content videos-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_video_01.jpg"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">@@tag</a></h4>
+			<h2 class="title">
+				<a href="@@url">Erin and Legedu</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">@@body</div>
+		</section>
+	</div>
+</article>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_video_02.jpg"></a>
+	</div>
+	<div class="content @@class">
+		<header>
+			<h4 class="tag topic"><a href="#">@@tag</a></h4>
+			<h2 class="title">
+				<a href="@@url">Nicole and Alonzo</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">@@body</div>
+		</section>
+	</div>
+</article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Videos -->
+
+    <section class="content line-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-bottom border-dark"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="content link-back margin-top-sm margin-bot-sm featured-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="link-all font-weight-bold hover-decoration-none hover-gold" href="#">FEATURED ON AISLE PLANNER</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body-cards featured-content">
+        <div class="component-body sync-boxes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_02.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">Minimalist Italian Destination Wedding in Tuscany</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Minimalist Details with a Grand Setting</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_03.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">STYLED SHOOT</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Modern Fairytale Wedding in Michigan</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End FEATURED -->
+
+    <section class="content line-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-bottom border-dark"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OTHER -->
+    <section class="content link-back margin-top-sm margin-bot-sm other-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a class="link-all font-weight-bold hover-decoration-none hover-gold" href="#">OTHER PROS IN YOUR AREA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body-cards other-content">
+        <div class="component-body sync-boxes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_other_01.png"></a>
+	</div>
+	<div class="content stars-show sub-tag-show">
+		<header>
+			<h4 class="tag topic"><a href="#">WEDDING PLANNER</a></h4>
+			<h2 class="title">
+				<a href="@@url">Penny Blooms Weddings and Events</a>
+            </h2>
+            <h4 class="sub-tag mt-5">San Diego, CA</h4>
+            <h4 class="stars stars-5"></h4>
+		</header>
+		<section>
+			<div class="body">$$</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_other_02.png"></a>
+	</div>
+	<div class="content stars-show sub-tag-show">
+		<header>
+			<h4 class="tag topic"><a href="#">BEAUTY</a></h4>
+			<h2 class="title">
+				<a href="@@url">Elwynn + Cass Beauty Concierge</a>
+            </h2>
+            <h4 class="sub-tag mt-5">San Diego, CA</h4>
+            <h4 class="stars stars-5"></h4>
+		</header>
+		<section>
+			<div class="body">$$</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/pro_listing/pro_other_03.png"></a>
+	</div>
+	<div class="content stars-show sub-tag-show">
+		<header>
+			<h4 class="tag topic"><a href="#">Photography</a></h4>
+			<h2 class="title">
+				<a href="@@url">Melissa Montoya Photography</a>
+            </h2>
+            <h4 class="sub-tag mt-5">San Diego, CA</h4>
+            <h4 class="stars stars-5"></h4>
+		</header>
+		<section>
+			<div class="body">$$</div>
+		</section>
+	</div>
+</article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End OTHER -->
+
+    <section class="content line-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-bottom border-dark"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS -->
+    <section class="customer">
+        <section class="customer-title content link-back margin-top-sm margin-bot-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <a class="link-all font-weight-bold hover-decoration-none hover-gold" href="#">CUSTOMER REVIEWS (2)</a>
+                        <div class="stars stars-5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer-body content link-back margin-top-sm margin-bot-sm">
+            <div class="container d-flex flex-column-reverse flex-lg-column">
+                <div class="poll d-flex justify-content-sm-end">
+                    <div class="poll-text mt-5 mt-sm-0 mb-lg-n5">
+                        Was this review helpful? <i class="fas fa-thumbs-up"></i> <span class="poll-num">2</span>
+                    </div>
+                </div>
+                <div class="customer-text">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between align-items-start">
+                            <div class="author">
+                                <div class="author-name">Sasha and Shane S.</div>
+                                <div class="date">Apr 16, 2019</div>
+                                <div class="stars stars-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p>A winter winery wedding in Temecula California</p>
+
+                            <p>I am so lucky to have chosen Veil Tails Weddings as my wedding planner!</p>
+
+                            <p>The team was amazing, helpful and brought a sense of calm to a very stressful situation. I loved how Madeline became a party of our extended family. She met with us to understand our vision and went above and beyond to make it happen.</p>
+
+                            <p>She was there to go wedding dress shopping with me. I remember showing up at David’s Bridal overwhelmed and nervous. She walked in the doors and took charge. My Mom’s first comment was about how calm Madeline made her feel. She gave great advice and helped with every situation. She was there to talk whenever we needed it, I never felt like a burden to her.</p>
+
+                            <p>I truly feel that she was just as excited about our wedding as we were. Thank you, Madeline and Karen, and to your team for making our wedding simply magical.
+
+                            <p>Sasha and Shane Sexton - The Newlyweds</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <div class="response bg-lt-gray p-4">
+                                <p class="font-weight-bold">Response from Veil Tales Weddings:</p>
+                                <p>Tank you Sasha and Shane.</p>
+                                <p>We had such a wonderful time and it was everything you wanted and more such an incredible family and the day couldn't have been more perfect we are honored to have been part of your Spectacular wedding !</p>
+                                <p class="mb-3">Thank you, Karen & Madeline</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer-body content link-back margin-top-sm margin-bot-sm">
+            <div class="container d-flex flex-column-reverse flex-lg-column">
+                <div class="poll d-flex justify-content-sm-end">
+                    <div class="poll-text mt-5 mt-sm-0 mb-lg-n5">
+                        Was this review helpful? <i class="fas fa-thumbs-up"></i> <span class="poll-num">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="customer-text">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between align-items-start">
+                            <div class="author">
+                                <div class="author-name">Jenny and Liam R.</div>
+                                <div class="date">Apr 15, 2019</div>
+                                <div class="stars stars-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p>Veil Tales Weddings helped create my magical winter wedding dreamscape that I had envisioned, and they did it with so much care and dedication to detail. Madeline and Karen listened to everything I wanted, did everything I asked, and set up an idyllic space all with a calm attitude and happy disposition.  </p>
+
+                            <p>I am a control freak, so it was going to be hard for me to hand the reins over to someone else. But I knew I couldn’t do it myself on my wedding day - and they did not let me down! They followed every request I made and when we walked into our space, it was truly my dream come true.</p>
+
+                            <p>They clearly care about personal touch and making every detail count. Thank you, Veil Tales Weddings, for being so wonderful!</p>
+
+                            <p>Jenny Rose & Liam Roddy, 2017</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <div class="response bg-lt-gray p-4">
+                                <p class="font-weight-bold">Response from Veil Tales Weddings:</p>
+                                <p>Thank you Jenny and Liam it was an honor to be your advisor and collaborator for this amazing event ! What a gorgeous wedding it was so magical day!</p>
+                                <p class="mb-3">xxoo, Madeline and Karen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="report-listing content mb-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!--/*
+    Main HTML template for the ag-dropdown component.
+*/-->
+<section class="component-ag-dropdown">
+
+    <div class="dropdown toggle-icon-show open">
+        <button class="dropdown-toggle" type="button" id="reportDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-flag"></i> Report Listing
+        </button>
+
+        <div class="bg-lt-gray border-0 dropdown-menu @@class-menu-position" aria-labelledby="reportDropdownMenuLink">
+            
+                <div class="font-weight-bold">Why are you reporting this listing?</div>
+              
+
+            <a class="dropdown-item" href="#">Content is inappropriate</a><a class="dropdown-item" href="#">Business no longer exists</a><a class="dropdown-item" href="#">Business listing is miscategorized</a>
+
+        </div>
+    </div>
+
+</section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+
+</div><!-- /#main -->
+
+<!--/*
+    Main HTML template for the ag-global-footer-tmp component.
+*/-->
+<footer class="component-global-footer component-ag-global-footer-tmp">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="ag-about_new.html">About</a></li>
+						<li><a href="http://localhost:3000/ag-press.html">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="http://localhost:3000/ag-contact-us_new.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">For Pros</h4>
+					<ul>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Advertise with Us</a></li>
+						<li><a href="#">Join Our Pro Community</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-12 col-xl-5 offset-sm-4 offset-xl-3">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Email Address" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2020 The Aisle Guide &nbsp;&nbsp; | &nbsp;&nbsp; Powered by <a class="logo-bottom" href="/">
+					<img class="img-responsive img-standard" src="./../images/logo-white-color.png">
+				</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- datepicker for forms -->
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<!-- END datepicker for forms -->
+
+<!-- build:js scripts/main.js -->
+<script src="../js/pagelibs.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

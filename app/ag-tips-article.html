@@ -1,0 +1,974 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TAG Tips Article Page</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the ag-page-tips-article-tmp component.
+*/-->
+<section class="component-ag-page-tips-article-tmp">
+    <div class="container px-0">
+        <section class="top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mob-full-width">
+                        <!-- class_title_hide_show - class for show/hide "PhotographerName" -->
+                        <!--/*
+    Main HTML template for the banner component.
+*/-->
+<section class="component-banner component-banner-lg background-image w-100 d-none d-lg-block" style="background-image: url(../images/tips_article/tips_article_banner_top.png); min-height: 511px;">
+    <h5 class="title d-sm-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-none d-md-block d-lg-none" style="background-image: url(../images/tips_article/tips_article_banner_top.png); min-height: 511px;">
+    <h5 class="title d-sm-none">Photo by: Photographer Name</h5>
+</section>
+
+<section class="component-banner component-banner-lg background-image w-100 d-md-none d-block" style="background-image: url(../images/tips_article/tips_article_banner_top.png); min-height: 511px;">
+    <h5 class="title d-sm-none">Photo by: Photographer Name</h5>
+</section>
+
+                    </div>
+                </div>
+                <div class="row mob-bg-gray">
+                    <div class="col-12 add-flag"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mob-bg-gray">
+                <div class="row">
+                    <div class="col-12 content-title pad-top-sm">
+                        <!--/*
+    Main HTML template for the ag-title component.
+*/-->
+
+<!-- Variables:
+"category": ["1", "2"],         ---- array 
+"title": "",
+"subTitle": "",
+"class-show-icon-heart": ""     ---- if added class "d-block" - show icon heart
+ -->
+
+<section class="component-ag-title title-body text-center">
+    <div class="text-container">
+        <h5 class="topic text-gold">
+            <a class="topic" href="#">PLANNING</a><span> / </span><a class="topic" href="#">FASHION & BEAUTY</a><span> / </span>
+        </h5>
+        <h2 class="title mb-4">5 Suit Mistakes We See Grooms Make</h2>
+        <p class="sub-title pad-top mb-4">With Generation Tux</p>
+    </div>
+    <div class="icon-heart text-center d-block mt-2">
+        <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+    </div>
+</section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div class="mob-heart d-md-none">
+            <div class="icon-heart text-center d-block mt-2">
+                <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+            </div>
+        </div>
+
+        <section class="content pad-top-lg">
+            <div class="container">
+                <div class="row">
+
+                    <!-- content box -->
+                    <div class="col-12 col-lg-8">
+                        <div class="text-container sm-fz-19">
+                            <p>The bride has enough things to worry about leading up to the big day, the groom and his
+                                choice of attire should not be one of them.</p>
+
+                            <p>We know you may not be used to thinking for more than five minutes about what you want to
+                                wear on any given day, but this is your wedding. It’s important and should be treated as
+                                such. A little extra thought and time will not kill you. In fact, it will lead to your most
+                                spectacular look. However, there are a few things that can go horribly wrong.</p>
+
+                            <p>Here are the top five mistakes we see grooms make and how to avoid them:</p>
+
+                            <p class="font-weight-bold mb-0">1. Waiting until the last minute</p>
+
+                            <p>The bride’s not waiting until the last minute to pick up her dress, why would you wait until
+                                the last minute to pick up your suit? This is one of the worst things you can do; there is
+                                so much room for disaster. Let’s not forget about Murphy's Law: "anything that can go wrong
+                                (probably) will go wrong."</p>
+
+                            <p>You’ll have a dozen other tasks on your to-do list, there will not be time to worry about
+                                something that should have been taken care of already. Your bride and her wedding planning
+                                committee have strictly scheduled every minute of the rehearsal dinner and wedding day.
+                                Believe
+                                us when we say that picking up Grandma from the airport, remembering to eat, memorizing your
+                                vows, and fixing a ruined suit cannot all get done in between whatever else your bride has
+                                planned for you.</p>
+
+                            <p>Everything might turn out fine, but some simple Google searches would point otherwise. We
+                                have
+                                seen it all. Wrong sizes, wrong colors, even no garments at all. Or you might go to pick up
+                                the
+                                suit the morning of the wedding and find the shop closed. It will cause unnecessary drama
+                                for
+                                the bride. And who would be at fault? You. The groom. Not a good way to start off a
+                                marriage.</p>
+
+                            <p>Don’t let disaster strike. Order your suit or tux six months in advance and get it in your
+                                hands
+                                14 days before your wedding. Don’t risk the pictures, they are forever.</p>
+                        </div>
+
+                        <div class="photo margin-top-md margin-bot-md mx-n4 mx-sm-auto">
+                            <div class="image">
+                                <img class="img-responsive img-fullwidth" src="../images/tips_article/photo_01.png">
+                            </div>
+                            <div class="photo-text pt-3 pl-1">
+                                Photo courtesy <a class="text-gold font-weight-bold" href="#">Professional Photography</a>
+                            </div>
+                        </div>
+
+                        <div class="text-container sm-fz-19">
+                            <p class="font-weight-bold mb-0">2. Wrong Fit</p>
+                            <p>A wedding is the most important photographic moment in any couple’s life. Do you want to look
+                                back at your wedding pictures, carefully taken and edited by a professional that you paid a lot
+                                of money for, and see sleeves that are too long or a baggy inseam? If your answer is anything
+                                but “no,” please seek help. Your bride should be able to set you straight.</p>
+
+                            <h3 class="text-center text-quote">"Fit is just as important as every <br>other element of your suit or tux." </h3>
+
+                            <p class="margin-top-sm">
+                                Fit is just as important as every other element of your suit or tux. Invest a few extra dollars
+                                in 100% wool. It will look and feel better than a polyester blend. And, if you’re not getting
+                                fitted or trying on your suit before walking down the aisle, you’re, again, making room for
+                                disaster. You want to look your best, after all.
+                            </p>
+
+                            <p class="font-weight-bold mb-0">3. Going over budget</p>
+                            <p>When picking out a suit or tux, it’s easier than you would imagine to go over your budget. There
+                                are a lot of pieces that come together for an entire wedding ensemble and each of those pieces
+                                is going to cost you, especially if you’re choosing to purchase, rather than rent. Aside from
+                                your jacket, pants, and shirt, you also have to think about all the accessories: shoes, tie,
+                                belt/suspenders, cufflinks, pocket square, etc.</p>
+
+                            <p>
+                                If you’re planning on attending a gala every year, buying may be a good option for you, but if
+                                not, renting is the far more economical option. Plus, you don’t want to get stuck with an outfit
+                                that you wear only one other time.
+                            </p>
+                        </div>
+
+                        <div class="photo-two margin-top-md margin-bot-md">
+                            <div class="container px-0">
+                                <div class="row">
+                                    <div class="image col-6 pl-0 pr-3 px-sm-4">
+                                        <img class="img-responsive img-fullwidth"
+                                            src="../images/tips_article/photo_02.png">
+                                    </div>
+                                    <div class="image col-6 pr-0 pl-3 px-sm-4">
+                                        <img class="img-responsive img-fullwidth"
+                                            src="../images/tips_article/photo_03.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="photo-text pt-3 pl-1">
+                                            Photo courtesy <a class="text-gold font-weight-bold" href="#">Professional Photography</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-container sm-fz-19">
+                            <p class="font-weight-bold mb-0">4. Not coordinating with the wedding party</p>
+                            <p>While it’s ultimately up to what the bride wants to see in her pictures, it’s also customary to
+                                have a little uniformity throughout the wedding party. No matter what, <a href="#"
+                                    class="text-gold">the groom is going to stand out</a>, but you don’t want to stand out
+                                too much.</p>
+
+                            <p>The style of your suit should match the style of the bride’s dress, as should the bridesmaids’
+                                dresses and groomsmen’s attire. All colors involved should also be within the palette of the
+                                wedding. Your tie does not have to be the same color as the bridesmaids’ dresses, but it
+                                shouldn’t clash. When in doubt, ask the bride.</p>
+                            
+                            <p class="gray-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam nam molestiae non rerum sint voluptatibus temporibus, obcaecati iste asperiores dignissimos placeat consequuntur! Culpa placeat aliquam voluptate veritatis harum et!</p>
+
+                            <p class="font-weight-bold mb-0">5. Wrong accessories</p>
+                            <p>There’s some wiggle room when it comes to suits and your personal style, but there are also some
+                                tried and true ways to wear your accessories.</p>
+
+                            <p>Tuxedos, being the classiest option, come with the most rules: do not wear a belt with a tux (the
+                                lack of belt loops should be your first clue), instead, opt for suspenders; studs and cufflinks
+                                should be worn with your tuxedo shirt; and bowties, rather than long ties, are traditionally
+                                worn with tuxedos.</p>
+
+                            <p>Other guidelines to consider: nontraditional colors for socks are fine, but stray away from
+                                white; no brown shoes or belt with a black suit; and both a belt and suspenders are not
+                                necessary with a suit.</p>
+
+                            <p>It’s wedding planning season for you and your bride. A vital time to avoid arguments. Instead, be
+                                the hero. Get involved and plan a stunning suit. It’s your day, too, and you should look great.
+                            </p>
+                        </div>    
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="right-sidebar col-12 col-lg-4 col-xl-3 ml-lg-auto mt-lg-0 d-flex flex-column flex-md-column-reverse mb-auto">
+                        <section class="sidebar mt-lg-0 mt-5">
+
+                            <section class="container-ad-pos leaderboard-ad-position-lg margin-bot-lg">
+
+                            </section>
+
+                            <section class="sidebar-share mt-md-n4 py-lg-0 ">
+                                <!--/*
+    Main HTML template for the ag-share component.
+*/-->
+<section class="component-ag-share">
+	<div class="content align-items-center justify-content-center justify-content-lg-start d-flex py-4">
+		<h5 class="mb-0 mr-5 share-text">Share</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button">
+                <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+            </div>
+			<div data-network="facebook" class="st-custom-button">
+                <a href="facebook.html"><i class="fab fa-facebook-f"></i></a>
+            </div>
+			<div data-network="pinterest" class="st-custom-button">
+                <a href="pinterest.html"><i class="fab fa-pinterest"></i></a>
+            </div>
+			<div data-network="instagram" class="st-custom-button">
+                <a href="@@instagram_url"><i class="fab fa-instagram"></i></a>
+            </div>
+			<div data-network="email" class="st-custom-button">
+                <a href="email.html"><i class="far fa-envelope"></i></a>
+            </div>
+		</div>
+    </div>
+</section>
+
+                            </section>
+
+                            <section class="mt-lg-0 mt-5">
+                                <div class="container px-0">
+                                    <div class="border-bottom border-dark"></div>
+                                </div>
+                            </section>
+                            <section class="sidebar-mob-container d-sm-flex d-lg-block justify-content-md-between flex-column-reverse">
+                                <div class="container px-0">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-4 col-lg-12">
+                                            <section class="sidebar-icon sidebar-icon-author image pt-5">
+                                                <img class="img-responsive img-fullwidth" src="../images/tips_article/sidebar_icon.png">
+                                            </section>
+
+                                            <section class="sidebar-share sidebar-share-generation sidebar-share-author py-lg-0 mt-3 pt-5">
+                                                <!--/*
+    Main HTML template for the ag-share component.
+*/-->
+<section class="component-ag-share">
+	<div class="content flex-column align-items-start justify-content-center d-flex py-4">
+		<h5 class="mb-0 mr-5 share-text">Generation Tux</h5>
+		<div class="networks">
+			<div data-network="twitter" class="st-custom-button">
+                <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+            </div>
+			<div data-network="facebook" class="st-custom-button">
+                <a href="facebook.html"><i class="fab fa-facebook-f"></i></a>
+            </div>
+			<div data-network="pinterest" class="st-custom-button">
+                <a href="pinterest.html"><i class="fab fa-pinterest"></i></a>
+            </div>
+			<div data-network="instagram" class="st-custom-button">
+                <a href="@@instagram_url"><i class="fab fa-instagram"></i></a>
+            </div>
+			<div data-network="email" class="st-custom-button">
+                <a href="email.html"><i class="far fa-envelope"></i></a>
+            </div>
+		</div>
+    </div>
+</section>
+
+                                            </section>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-12">
+                                            <section class="sidebar-list pt-5 pb-4">
+                                                <div class="container px-0">
+                                                    <div class="row">
+                                                        <div class="col-12 mb-0">
+                                                            Generation Tux is an online suit and tux rental just for your
+                                                            wedding. Generation Tux offers complimentary swatches and free
+                                                            home try-on for the groom so that he can try out his look months
+                                                            before the wedding. Customize your look with dozens of
+                                                            high-quality suit and tux options and a full spectrum of
+                                                            accessories.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="col-lg-12 container-ad-pos component-leaderboard-ad">
+                                            <div class="leaderboard-ad-position mt-5 mb-5">
+                                                <!--/*
+    Main HTML template for the leaderboard-ad component.
+*/-->
+
+<!-- 
+variables:
+
+"classContainer": "",
+"classLeaderboard": "",     ---- show the block = d-flex
+"classHalf": "",            ---- show the block = d-flex
+"classMedium": ""           ---- show the block = d-flex
+ -->
+
+<section class="component-leaderboard-ad ">
+    <div class="container">
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-content leaderboard ">
+                <h6 class="text-white">LEADERBOARD AD</h6>
+            </div>
+            <div class="col-content half d-flex">
+                <h6 class="text-white">Half Page Ad</h6>
+            </div>
+            <div class="col-content medium ">
+                <h6 class="text-white">MEDIUM RECTANGLE AD</h6>
+            </div>
+        </div>
+    </div>
+</section>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-12">
+                                            <section class="content related-topics mt-2 pt-5">
+                                                <section class="sidebar-list pb-4">
+                                                    <div class="container px-0">
+                                                        <h5>RELATED TOPICS</h5>
+                                                        <div class="row">
+                                                            <div class="col-6 col-sm-12">
+                                                                <ul>
+                                                                    <li class="item">
+                                                                        <a href="#">Checklist</a>
+                                                                    </li>
+                                                                    <li class="item">
+                                                                        <a href="#">Wedding tips</a>
+                                                                    </li>
+                                                                    <li class="item">
+                                                                        <a href="#">What to wear</a>
+                                                                    </li>
+                                                                    <li class="item">
+                                                                        <a href="#">Suits and tuxedos</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="container-ad-pos leaderboard-ad-position-sm">
+                            
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content d-none d-md-block">
+            <div class="container margin-top-sm margin-bot-sm">
+                <div class="row">
+                    <div class="col-12 border-bottom border-dark"></div>
+                </div>
+            </div>
+        </section>
+        <section class="content pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">You Might Also Like</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="body-cards pt-5">
+            <div class="component-body sync-boxes">
+                <div class="container px-md-0">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_01.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">An Elegant Floral <br>La Jolla Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body"></div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_02.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">Minimalist Italian Destination Wedding in Tuscany</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Minimalist Details with a Grand Setting</div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_03.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">STYLED SHOOT</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Modern Fairytale Wedding in Michigan</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Marriage of Traditional and Modern decor</div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_04.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">STYLED SHOOT</a></h4>
+			<h2 class="title">
+				<a href="@@url">Sweet Pacific Coast Wedding Inspiration</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Soft Blush Tones and Modern Details</div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_05.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Romantic Garden State Room Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">A Distant Drum Rose Inspired Color Palette</div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                            <!--/*
+    Main HTML template for the card component.
+*/-->
+
+<article class="component-card box">
+	<div class="image">
+		<a href="@@url"><img class="img-responsive img-fullwidth" src="../images/inspiration/insp_06.png"></a>
+	</div>
+	<div class="content ">
+		<header>
+			<h4 class="tag topic"><a href="#">REAL WEDDING</a></h4>
+			<h2 class="title">
+				<a href="@@url">A Perfectly Parisian Destination Wedding</a>
+            </h2>
+            <h4 class="sub-tag mt-5">@@sub-tag</h4>
+            <h4 class="stars @@stars-num"></h4>
+		</header>
+		<section>
+			<div class="body">Crisp Ivory with a Touch of Blush Pink</div>
+		</section>
+	</div>
+</article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+<div class="spacer margin-bot-lg d-none d-lg-block"></div>
+<section class="bg-lt-gray margin-top-lg d-none d-sm-block d-lg-none">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-10">
+                <!-- classTitle "gold-underline" - adds gold underline to title (h2) -->
+                <!--/*
+    Main HTML template for the card-contact component.
+*/-->
+
+<!-- 
+variables:
+"classTitle": "",	---- if added class "gold-underline - show horizontal gold line"
+"title": "",			
+"body": "",			
+"ctaLabel": "" 
+-->
+<article class="component-card-contact box">
+	<div class="content">
+		<header>
+			<h2 class="title gold-underline">Lorem ipsum dolor sit amet.</h2>
+		</header>
+		<section>
+			<div class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, blanditiis placeat natus optio suscipit, excepturi quod rem. Repudiandae numquam, quidem!</div>
+			<!-- If CTA -->
+			<div class="cta">
+				<!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="index.html" class="component-cta primary"><!--<i class="fab fa-facebook-f"></i>--> <span>sing up</span></a>
+
+
+			</div>
+			<!-- end if -->
+		</section>
+	</div>
+</article>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</div><!-- /#main -->
+
+<!--/*
+    Main HTML template for the ag-global-footer-tmp component.
+*/-->
+<footer class="component-global-footer component-ag-global-footer-tmp">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="ag-about_new.html">About</a></li>
+						<li><a href="http://localhost:3000/ag-press.html">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="http://localhost:3000/ag-contact-us_new.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">For Pros</h4>
+					<ul>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Advertise with Us</a></li>
+						<li><a href="#">Join Our Pro Community</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-12 col-xl-5 offset-sm-4 offset-xl-3">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Email Address" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2020 The Aisle Guide &nbsp;&nbsp; | &nbsp;&nbsp; Powered by <a class="logo-bottom" href="/">
+					<img class="img-responsive img-standard" src="./../images/logo-white-color.png">
+				</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- datepicker for forms -->
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<!-- END datepicker for forms -->
+
+<!-- build:js scripts/main.js -->
+<script src="../js/pagelibs.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

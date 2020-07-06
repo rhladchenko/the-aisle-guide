@@ -1,0 +1,759 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TAG Tips Essentials.html Page</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=5d817a1f99ba6000123f0ec1&product=inline-share-buttons'
+        async='async'></script>
+
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- END recaptcha -->
+
+    <link rel="stylesheet" href="../css/pagelibs.css" media="all">
+    <script src="../js/headlibs.js"></script>
+</head>
+
+<body class="role--anonymous">
+
+    <!--/*
+    Main HTML template for the global-header component.
+*/-->
+<header id="global-header" class="component-global-header header-pinned">
+
+	<!--/*
+    Main HTML template for the promo component.
+
+    Consider utilizing bootstraps display classes for the div.promo for different resolutions, e.g. seperate promo lines for tablet and desktop.
+
+    https://getbootstrap.com/docs/4.3/utilities/display/
+
+*/-->
+<section class="component-promo hidden" rel="123">
+
+    <div class="container">
+	    <div class="row">
+		    <div class="col-12">
+			    <div class="promo font-stretch">Lorem ipsum dolor sit amet, consectetur, sed do! <a href="#">Learn More <i class="fas fa-chevron-right"></i></a></div>
+			    <div class="close"><i class="fas fa-times"></i></div>
+		    </div>
+	    </div>
+    </div>
+
+</section>
+
+
+
+	
+	<!--/*
+    Main HTML template for the global-navigation component.
+
+    CMS Options:
+
+	Variation:
+	 - Standard:                            (no extra class needed)
+	 - Transparent:   variant-transparent   (append this class to the <header class="component-global-navigation"> tag)
+
+	Logos:
+	 - Standard Logo
+	 - Transparent Logo
+*/-->
+
+<header class="component-global-navigation" role="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-lg-3">
+				<a class="logo" href="/">
+					<img class="img-responsive img-standard" src="../images/ag-logo-dark-color.png">
+					<img class="img-responsive img-transparent" src="../images/ag-logo-white-color.png">
+				</a>
+			</div>
+			<div class="col-6 col-lg-9">
+				<div class="mobile-nav-trigger">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+				<div class="desktop-menu">
+					<!--<nav class="nav-utility clearfix">
+						<ul>
+							<li><a href="#">Customer Login</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>-->
+					<nav class="nav-primary clearfix">
+						<ul>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Solutions</span>
+								<ul class="dropdown-menu">
+									<li ><a href="#" class="font-stretch">Starter Assets</a></li>
+									<li><a href="#" class="font-stretch">Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Business Types</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Pharma</a></li>
+									<li><a href="#" class="font-stretch">Medtech</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<span class="dropdown-toggle" class="font-stretch">Community</span>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="font-stretch">Our Story</a></li>
+									<li><a href="#" class="font-stretch">Leadership Team</a></li>
+									<li><a href="#" class="font-stretch">Clinical Board</a></li>
+									<li><a href="#" class="font-stretch">Careers</a></li>
+								</ul>
+							</li> -->
+							<li class="nav-item">
+								<a class="box-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signupModal">Join</a>
+							</li>
+							<li class="nav-item">
+								<a class="gold-link" href="#" class="font-stretch" data-toggle="modal" data-target="#signInModal">Sign In</a>
+							</li>
+							<li class="nav-item">
+								<a href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mobile-menu">
+
+		<div class="main">
+			<div class="header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-10">
+							<img class="logo img-responsive" src="../images/ag-logo-white-color.png">
+						</div>
+						<div class="col-2">
+							<button class="close">
+								<span class="close-icon white"></span>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+
+							<!-- Drupal Search Block -->
+							<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+								<h2 class="visually-hidden">Search form</h2>
+	  							<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+									<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+										<label for="edit-keys" class="control-label sr-only">Search</label>
+										<div class="input-group">
+											<span class="input-group-btn">
+												<button type="submit" value="Search" class="button js-form-submit form-submit btn-primary btn icon-only" name="">
+													<i class="fas fa-search"></i>
+												</button>
+											</span>
+											<input title="" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" data-toggle="tooltip" data-original-title="Enter the terms you wish to search for.">
+										</div>
+									</div>
+									<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+								</form>
+							</div>
+							<!-- End Drupal Search Block -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nav-wrap">
+				<nav class="nav-primary clearfix">
+					<ul>
+						<li class="dropdown">
+							<!-- <label class=""><span class="dropdown-toggle font-stretch">Solutions</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Business Types</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+						<li class="nav-item">
+							<a class="gold-link" href="ag-inspiration-landing-page.html" class="font-stretch">INSPIRATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-gallery.html" class="font-stretch">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-tips-landing-page.html" class="font-stretch">TIPS</a>
+						</li>
+						<li class="nav-item">
+							<a class="gold-link" href="ag-find-pro-landing-page.html" class="font-stretch">FIND A PRO</a>
+						</li>
+						<!-- <li class="dropdown">
+							<label><span class="dropdown-toggle font-stretch">Community</span> <i class="fas fa-plus dropdown-toggle"></i></label>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="font-stretch">Starter Assets</a></li>
+								<li><a href="#" class="font-stretch">Services</a></li>
+							</ul>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="push"></div>
+		</div>
+
+		<div class="sticky">
+			<div class="actions">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="actions-link actions-join font-stretch">Join</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="actions-link actions-sign-in font-stretch">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<p class="legal">&copy; Copyright 2019 Aisle Planner Inc</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div class="social-icons">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-pinterest"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+
+</header>
+
+
+    <!-- ______________________ MAIN _______________________ -->
+    <div class="main">
+
+<!--/*
+    Main HTML template for the ag-page-tips-essentials-tmp component.
+*/-->
+<section class="component-ag-page-tips-essentials-tmp">
+
+    <!-- banner -->
+
+    <!-- @@class-image-position => flex-lg-row = image left, flex-lg-row-reverse = image right -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mob-full-width">
+                <!--/*
+    Main HTML template for the ag-banner-fifty component.
+*/-->
+<section class="component-ag-banner-fifty">
+
+    <!-- Variables:
+
+    "classImagePosition": "",           ---- "flex-md-row-reverse" - position img on the banner (left/right)
+    "image": "",                        ---- src image
+    "classImageTitleHideShow": "",      ---- d-md-none
+    "PhotographerName": "",             ---- signature on the banner below
+    "tag": "",                          ---- toppic text
+    "title": "",                        
+    "body": ""                          
+-->
+
+    <!-- @@class-image-position => flex-lg-row = image left, flex-lg-row-reverse = image right -->
+
+    <section class="ag-banner-50x50">
+        <div class="container px-0 d-flex flex-column flex-md-row-reverse">
+            <div class="col-image">
+                <div class="component-image">
+                    <img class="img-responsive" src="../images/tips_lp/tips_lp_banner_top.png">
+                    <h5 class="title d-md-none">Photo by: Photographer Name</h5>
+                </div>
+            </div>
+            <div class="col-text text-center bg-gray add-flag p-5">
+                <h5 class="topic margin-top-md"><a href='#'>PLANNING</a></h5>
+                <div class="center-y">
+                    <h2 class="mb-4 px-lg-5">5 Suit Mistakes We See <br> Grooms Make</h2>
+                    <p class="mb-4">With Generation Tux</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer_100_60_75"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <section class="content pb-3 mb-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="text-center mb-0">Essentials</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer_100_60_75"></div>
+
+    <!-- REFINE YOUR SEARCH -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-filter">
+                    <section class="content content-dropdown-nav dropdown-v1 pb-3">
+                        <div class="container px-0">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-between">
+                                    <div class="dropdown-nav-left">
+                                        <div class="dropdown-filter-box dropdown-filter-box-default no-hide">
+                                            <button class="dropdown-toggle text-dk-gray dropdown-filter">REFINE YOUR SEARCH</button>
+                                        </div>
+                                        <div class="dropdown-filter-box dropdown-filtered d-none">
+                                            <div class="filter-selected d-flex align-content-center flex-wrap">
+                                                <span class="marker-insert"></span>
+                                                <button class="text-dk-gray h6 filter-btn btn-clear ml-5 mb-0">CLEAR ALL</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/*
+    Main HTML template for the ag-dropdown component.
+*/-->
+<section class="component-ag-dropdown">
+
+    <div class="dropdown dropdown-v1 sort open">
+        <button class="dropdown-toggle" type="button" id="reportDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-flag"></i> MOST RECENT
+        </button>
+
+        <div class="bg-lt-gray border-0 dropdown-menu dropdown-menu-right" aria-labelledby="reportDropdownMenuLink">
+            
+
+            <a class="dropdown-item" href="#">MOST RECENT</a><a class="dropdown-item" href="#">MOST POPULAR</a><a class="dropdown-item" href="#">TRENDING</a>
+
+        </div>
+    </div>
+
+</section>
+
+                                </div>
+                            </div>
+                            <div class="row search-filter-container mb-5 d-none">
+                                <div class="col-12">
+                                    <div class="search-filter bg-gray mt-3">
+                                        <div class="btn-close">&times;</div>
+                                        <div class="content-container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-3 d-md-none">
+                                                        <div class="filtered-by mb-4 d-md-none">
+                                                            <!--/*
+    Main HTML template for the cta component.
+
+    - class: primary, primary-reverse, secondary, secondary-white 
+
+    - variables:
+    "url": "",
+    "class": "",
+    "label": ""
+*/-->
+
+<a href="#" class="component-cta mob-filter-btn mob-btn-apply btn-apply primary w-100 mb-4"><!--<i class="fab fa-facebook-f"></i>--> <span>Done</span></a>
+
+
+                                                            <div class="d-flex justify-content-between">
+                                                                <h5 class="filtered-by-title title my-1">FILTERED BY:</h5> <button class="d-block text-dk-gray h6 my-1 filter-btn btn-clear">CLEAR ALL</button>
+                                                            </div>
+                                                            <div class="filter-selected filter-selected-mob d-flex flex-wrap py-2 ">
+                                                                <span class="marker-insert"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-3 pr-md-0">
+                                                                <div class="category-filter">
+                                                                    <div class="body body-dropdown">
+                                                                        <div class="category-items-box">
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c1" data-label-category="@@data-category">
+    <input type="checkbox" id="c1" value="Planning" data-category="@@data-category">
+    <span></span>
+    Planning
+</label>
+                    
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c2" data-label-category="@@data-category">
+    <input type="checkbox" id="c2" value="Venue" data-category="@@data-category">
+    <span></span>
+    Venue
+</label>
+                    
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c3" data-label-category="@@data-category">
+    <input type="checkbox" id="c3" value="Fashion + Beauty" data-category="@@data-category">
+    <span></span>
+    Fashion + Beauty
+</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-6 col-lg-3 pr-md-0">
+                                                                <div class="category-filter">
+                                                                    <div class="body body-dropdown">
+                                                                        <div class="category-items-box">
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c4" data-label-category="@@data-category">
+    <input type="checkbox" id="c4" value="Floral" data-category="@@data-category">
+    <span></span>
+    Floral
+</label>
+
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c5" data-label-category="@@data-category">
+    <input type="checkbox" id="c5" value="Decor" data-category="@@data-category">
+    <span></span>
+    Decor
+</label>
+
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c6" data-label-category="@@data-category">
+    <input type="checkbox" id="c6" value="Stationary" data-category="@@data-category">
+    <span></span>
+    Stationary
+</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-6 col-lg-3 pr-md-0">
+                                                                <div class="category-filter">
+                                                                    <div class="body body-dropdown">
+                                                                        <div class="category-items-box">
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c7" data-label-category="@@data-category">
+    <input type="checkbox" id="c7" value="Menu" data-category="@@data-category">
+    <span></span>
+    Menu
+</label>
+
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c8" data-label-category="@@data-category">
+    <input type="checkbox" id="c8" value="Entertainment" data-category="@@data-category">
+    <span></span>
+    Entertainment
+</label>
+
+                                                                            <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c9" data-label-category="@@data-category">
+    <input type="checkbox" id="c9" value="Photo + Video" data-category="@@data-category">
+    <span></span>
+    Photo + Video
+</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-6 col-lg-3 pr-md-0">
+                                                                <div class="category-filter">
+                                                                    <div class="body body-dropdown">
+                                                                        <div class="category-items-box">
+                                                                        <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c10" data-label-category="@@data-category">
+    <input type="checkbox" id="c10" value="Travel" data-category="@@data-category">
+    <span></span>
+    Travel
+</label>
+
+                                                                        <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c11" data-label-category="@@data-category">
+    <input type="checkbox" id="c11" value="Registry" data-category="@@data-category">
+    <span></span>
+    Registry
+</label>
+
+                                                                        <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+
+<!-- Variables:
+"id": "",
+"label": "" 
+-->
+
+<label class="component-ag-filter ag-filter-checkbox category-item" for="c12" data-label-category="@@data-category">
+    <input type="checkbox" id="c12" value="Shower + Parties" data-category="@@data-category">
+    <span></span>
+    Shower + Parties
+</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>   
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row d-none d-md-block margin-top-lg">
+                                                    <div class="col-12">
+                                                        <!--/*
+    Main HTML template for the ag-filter component.
+*/-->
+<section class="component-ag-filter ag-filter-btn">
+    <div class="btn-bottom-container d-flex align-items-center justify-content-end">
+        <button class="d-block text-dk-gray h6 filter-btn btn-clear mb-0">CLEAR
+            ALL</button>&nbsp;&nbsp;|&nbsp;&nbsp;<button
+            class="d-block text-dk-gray h6 filter-btn btn-apply mb-0">APPLY</button>
+    </div>
+</section>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+</section>
+
+</div><!-- /#main -->
+
+<!--/*
+    Main HTML template for the ag-global-footer-tmp component.
+*/-->
+<footer class="component-global-footer component-ag-global-footer-tmp">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a class="logo" href="/">
+					<img class="img-responsive" src="../images/logo-color-bug.png">
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">Company</h4>
+					<ul>
+						<li><a href="ag-about_new.html">About</a></li>
+						<li><a href="http://localhost:3000/ag-press.html">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="http://localhost:3000/ag-contact-us_new.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-6 col-sm-4 col-xl-2">
+				<nav class="footer-nav">
+					<h4 class="font-stretch">For Pros</h4>
+					<ul>
+						<li><a href="#">Submissions</a></li>
+						<li><a href="#">Advertise with Us</a></li>
+						<li><a href="#">Join Our Pro Community</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-12 col-xl-5 offset-sm-4 offset-xl-3">
+				<div class="footer-signup">
+					<h4 class="font-stretch">Industry Insider Newsletter</h4>
+					<form class="mailchimp-signup-subscribe-form" action="/" method="post" id="mailchimp-signup-subscribe-block-newsletter-form" accept-charset="UTF-8" _lpchecked="1">
+						<input placeholder="Email Address" type="text" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="128" class="form-text required" />
+						<div class="form-actions form-wrapper" id="edit-actions">
+							<div class="submit-wrapper font-stretch">
+								<input class="form-submit btn hover-white" type="submit" id="edit-submit" name="op" value="Sign Up" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<p class="legal">&copy; Copyright 2020 The Aisle Guide &nbsp;&nbsp; | &nbsp;&nbsp; Powered by <a class="logo-bottom" href="/">
+					<img class="img-responsive img-standard" src="./../images/logo-white-color.png">
+				</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- datepicker for forms -->
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<!-- END datepicker for forms -->
+
+<!-- build:js scripts/main.js -->
+<script src="../js/pagelibs.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

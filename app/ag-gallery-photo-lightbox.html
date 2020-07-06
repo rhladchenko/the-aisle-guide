@@ -6,7 +6,7 @@
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Client Components</title>
+    <title>TAG Gallery Photo Lightbox Page</title>
 
     <link rel="shortcut icon" href="../images/favicon.ico" />
 
@@ -284,65 +284,201 @@
     <!-- ______________________ MAIN _______________________ -->
     <div class="main">
 
-<article class="sitemap padding-top padding-bottom">
-	<div class="container">
-		<h1>Pages</h1>
-		<ul>
-            <li>Pages</li>
-            <li><a href="ag-start-page.html">TAG Start Page</a></li>
-            <li><a href="ag-home.html">TAG Home</a></li>
-            <li><a href="ag-inspiration.html">TAG Inspiration (APP-43, inv: 2a-1)</a></li>
-            <li><a href="ag-tips-article.html">TAG Tips Article (APP-49, inv: 3a-1)</a></li>
-            <li><a href="ag-tips-landing-page.html">TAG Tips Landing Page (APP-48, inv: 3-1)</a></li>
-            <li><a href="ag-tips-essentials.html">TAG Tips Essentials Page (inv: 3-2a)</a></li>
-            <li><a href="ag-tips-topic.html">TAG Tips Topic Page (inv: 3-3a)</a></li>
-            <li><a href="ag-search-for-content.html">TAG Search for Content (APP-913, inv: 1a-2)</a></li>
-            <li><a href="ag-pro-listing.html">TAG Pro Listing Page (APP-51, inv: Listing EDITED)</a></li>
-            <li><a href="ag-find-pro-landing-page.html">TAG Find a Pro Landing Page (APP-50)</a></li>
-            <li><a href="ag-not-found-404.html">TAG Page Not Found (404 Error)</a></li>
-            <li><a href="ag-contact-us_new.html">TAG Contact Us</a></li>
-            <li><a href="ag-about_new.html">TAG About</a></li>
-            <li><a href="ag-press.html">TAG Press</a></li>
-            <li><a href="ag-legal.html">TAG Legal</a></li>
-            <li><a href="ag-inspiration-landing-page.html">TAG Inspiration Landing Page (APP-41, inv: 2-1)</a></li>
-            <li><a href="ag-inspiration-story-gallery.html">TAG Inspiration Story Gallery Page (APP-44)</a></li>
-            <li><a href="ag-gallery.html">TAG Gallery Page (APP-46, inv: 4-2)</a></li>
-            <li><a href="ag-gallery-photo-lightbox.html">TAG TAG Gallery Photo Lightbox Page (APP-45, inv: 4-3)</a></li>
-            <li><a href="ag-test-page.html">TAG Test Page</a></li>
-            <!-- <li><a href="home.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="blog-detail.html">Blog Detail</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="legal.html">Legal</a></li>
-			<li><a href="pricing.html">Pricing</a></li>
-			<li><a href="submissions.html">Submissions</a></li> -->
-		</ul>
-		<!-- <ul>
-			<li>Components</li>
-			<li><a href="cards.html">Cards</a></li>
-			<li><a href="hero.html">Hero</a></li>
-			<li><a href="image-grid.html">Image Grid</a></li>
-		</ul> -->
-	</div>
-</article>
 <!--/*
-    Main HTML template for the ag-alert-popap-cookies component.
+    Main HTML template for the ag-page-gallery-photo-lightbox-tmp component.
 */-->
-<section class="component-ag-alert-popap-cookies">
+<section class="component-ag-page-gallery-photo-lightbox-tmp">
 
-    <div class="AlertPopup d-flex align-items-center">
-        <div class="panel-right d-flex justify-content-center align-items-center">
-            <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="story-container margin-top-lg">
+                    <div class="story-content-nav d-flex justify-content-between align-items-center">
+                        <a class="link-all hover-decoration-none hover-gold" href="#"><i class="fas fa-arrow-left"></i>
+                            BACK</a>
+                        <div class="btn-close">&times;</div>
+                    </div>
+                    <div class="story-content-body container">
+                        <div class="row justify-content-center justify-content-lg-between">
+                            <div class="story-left-box col-12 col-lg-5">
+                                <div id="carouselStory" class="carousel slide" data-interval="false">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="../images/inspiration/insp_gallery_01.png"
+                                                alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="../images/inspiration/insp_gallery_02.png"
+                                                alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="../images/inspiration/insp_gallery_03.png"
+                                                alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control carousel-control-prev" href="#carouselStory"
+                                        role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    </a>
+                                    <a class="carousel-control carousel-control-next" href="#carouselStory"
+                                        role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="story-right-box col-12 col-lg-6">
+                                <div class="story-right-header">
+                                    <div class="icon-add">+</div>
+                                    <section>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 content-title ">
+                                                    <!--/*
+    Main HTML template for the ag-title component.
+*/-->
+
+<!-- Variables:
+"category": ["1", "2"],         ---- array 
+"title": "",
+"subTitle": "",
+"class-show-icon-heart": ""     ---- if added class "d-block" - show icon heart
+ -->
+
+<section class="component-ag-title title-body text-center">
+    <div class="text-container">
+        <h5 class="topic text-gold">
+            <a class="topic" href="#">Real Wedding</a><span> / </span>
+        </h5>
+        <h2 class="title mb-4">Staying Grounded: A Rusty Gate Estate Wedding</h2>
+        <p class="sub-title pad-top mb-4"></p>
+    </div>
+    <div class="icon-heart text-center d-block mt-2">
+        <i class="far fa-heart"><span class="tooltip">Click&nbsp;to&nbsp;save&nbsp;to&nbsp;favorite</span></i>
+    </div>
+</section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="story-right-body container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="title">
+                                                PALETTE
+                                            </div>
+                                            <div class="palettes d-flex">
+                                                <div class="palette palette-01"></div>
+                                                <div class="palette palette-02"></div>
+                                                <div class="palette palette-03"></div>
+                                                <div class="palette palette-04"></div>
+                                                <div class="palette palette-05"></div>
+                                                <div class="palette palette-06"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="title story-accordion">
+                                                <div class="accordion-btn-toggle" type="button" data-toggle="collapse"
+                                                    data-target="#collapseExample" aria-expanded="false"
+                                                    aria-controls="collapseExample">
+                                                    CREDITS <span></span>
+                                                </div>
+                                                <div class="collapse" id="collapseExample">
+                                                    <div class="card card-body row">
+                                                        <ul class="col-6 col-md-12 col-lg-6">
+                                                            <li class="item">
+                                                                <span>Contributor</span>
+                                                                <span class="text-gold">Darling Don't Panic®</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Photographer</span>
+                                                                <span>Ed Sloane</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Location &amp; Venue</span>
+                                                                <span>Rusty Gate Weddings</span>
+                                                                <span>Curlewis, VIC</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Wedding Planner</span>
+                                                                <span class="text-gold">Darling Don't
+                                                                    Panic&nbsp;®</span>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="col-6 col-md-12 col-lg-6">
+                                                            <li class="item">
+                                                                <span>Stationery</span>
+                                                                <span>Studio Silva</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Floral Designer</span>
+                                                                <span>Charlie and Co Flowers</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Equipment &amp; Decor Rentals</span>
+                                                                <span>Memphis Hire</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Catering</span>
+                                                                <span>Truffleduck</span>
+                                                            </li>
+                                                            <li class="item">
+                                                                <span>Linens</span>
+                                                                <span>Simmons Linen</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <section class="component-ag-share">
+                                                <div
+                                                    class="content align-items-center justify-content-start d-flex py-4">
+                                                    <h5 class="mb-0 mr-5 share-text">Share</h5>
+                                                    <div class="networks">
+                                                        <div data-network="twitter"
+                                                            class="st-custom-button st-hide-label">
+                                                            <a href="twitter.html"><i class="fab fa-twitter"></i></a>
+                                                        </div>
+                                                        <div data-network="pinterest"
+                                                            class="st-custom-button st-hide-label">
+                                                            <a href="pinterest.html"><i
+                                                                    class="fab fa-pinterest"></i></a>
+                                                        </div>
+                                                        <div data-network="facebook"
+                                                            class="st-custom-button st-hide-label">
+                                                            <a href="facebook.html"><i
+                                                                    class="fab fa-facebook-f"></i></a>
+                                                        </div>
+                                                        <div data-network="email"
+                                                            class="st-custom-button st-hide-label">
+                                                            <a href="email.html"><i class="far fa-envelope"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="panel-left">
-            <p><i class="fa fa-exclamation-triangle small-alert-icon d-none" aria-hidden="true"></i> We use cookies and similar technologies on our site to personalize content and ads to provide you with a better user experience. By continuing to use this site, you accept our use of cookies and agree to our <a href="https://pro.aisleplanner.com/legal#privacy" target="_blank">Privacy Policy</a> and <a href="https://pro.aisleplanner.com/legal#terms" target="_blank">Terms of Service.</a></p>
+        <div class="row">
+            <div class="col-12 margin-top-lg">
+                <h2 class="text-center">More Like This</h2>
+            </div>
         </div>
-        <div class="popap-btn-close">&times;</div>
     </div>
 
 </section>
-
 
 </div><!-- /#main -->
 
